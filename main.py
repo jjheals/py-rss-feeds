@@ -28,6 +28,33 @@ from FP_Classes.Feeds.TheHackerNews import HackerNewsRSS            # Hacker New
 configDir = "config/"                  # Change if you changed the default file hierarchy 
 feedThreads:dict[str, Thread] = {}      # To keep track of the threads still running and print their targets (the feed each is for) for debugging/logging purposes
 
+# Get config settings
+config = json.load(open(configDir + "config.json"))
+
+# Get db credentials
+try: db_creds = json.load(open(configDir + config['db-creds-json-path']))
+except Exception as e: 
+    print("CRITICAL ERROR: Error getting DB Creds. Quitting.")
+    print(e)
+    quit()
+
+# Init DB connection
+dbConn = RSS_DB_Connection(
+            username=db_creds['username'],
+            password=db_creds['password'],
+            host=db_creds['host']
+        )
+
+# Get all tags and update DB 
+allTags:list[Tag] = []
+for d in json.load(open(configDir + config['tags-json-file'])): allTags.append(Tag.tagFromDict(d))
+
+if not dbConn.newTagsFromExcel(configDir + config['update-tags-filepath']):
+    print("CRITICAL ERROR: There was an error adding tags to the DB. Exiting program.")
+    quit()
+else: 
+    print("SUCCESS: DB tags updated successfully.")
+
 # Initialize all Feed objects 
 bleepingComputerRss = BleepingComputerRSS()
 censysRss = CensysRSS()
@@ -53,23 +80,13 @@ allFeeds:list[RSS_Feed] = [
 ]
 allArticles:list[RSS_Article] = []
 
-# Load the config json
-config = json.load(open(configDir + 'config.json'))
-
-# Getting DB creds or specifying we are not interacting with a remote DB
-try: db_creds = json.load(open(configDir + config['db-creds-json-path']))
-except: db_creds = False
-
-# Get all the tags from the specified local json file 
-allTags:list[Tag] = []
-for d in json.load(open(configDir + config['tags-json-file'])): allTags.append(Tag.tagFromDict(d) )
-
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
 # Classifying the articles for each feed 
 for feed in allFeeds: 
     #feed.classifyArticles(allTags, config['thread-limit']) 
     allArticles.extend(feed.articles)
 
+"""
 # Cluster analysis of articles
 lda:LDA_Article_Clustering = LDA_Article_Clustering(allArticles, num_topics=20, limit=100)
 
@@ -81,6 +98,7 @@ for i in range(len(lda.topics_dict.keys())):
     s += "\n" + lda.strInfoForTopic(i)
 
 print(s)
+"""
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
 # Section for interacting with the remote DB
@@ -88,23 +106,9 @@ print(s)
 
 
 # The following block should only run if we have DB creds to access the remote DB. it can be skipped otherwise
-if db_creds: 
-    dbConn:RSS_DB_Connection = RSS_DB_Connection(
-                                    username=db_creds['username'],
-                                    password=db_creds['password'],
-                                    host=db_creds['host']
-                                )
-
-    # Update the tags in the DB if specified in the config file
-    if config['update-tags-filepath']: 
-        if not dbConn.newTagsFromExcel(config['update-tags-filepath']):
-            print("CRITICAL ERROR in main: there was an error executing RSS_DB_Connection.newTagsFromExcel(). See output for more details. Quitting program.\n")
-            quit()
-        else: 
-            print("SUCCESS: remote DB updated with local tags. Continuing.\n")  
-              
-    # Get all tags from the remote DB
-    #allTags:list[Tag] = dbConn.getAllTags()
+if db_creds:              
+    # Get all tags from the remote DB incase there are more than what we have locally
+    allTags = dbConn.getAllTags()
 
     # Classify all the articles. This should run whether we are updating the remote db or just locally saving the data
     # --> This loop will check if we are updating the remote db and act accordingly
@@ -112,15 +116,11 @@ if db_creds:
         if dbConn.addArticles(feed.articles): print(f"\tSuccessfully added articles for {feed.feed_title}.")
         else: print(f"\tThere was some error adding the articles for {feed.feed_title}. Moving on.")
         
-
     # Success message
     print("[+] SUCCESS: All threads for classifying articles in feeds are complete.")
 
 
-# NOTE: Need to wait until threads are done to save locally, since this is dependent on the articles being classified 
-# If the config settings specify, save the data for this feed locally in excel sheets
 # NOTE: the time to save locally is trivial compared to the time to classify articles so no need for threading
-
 if config['local-save']: 
     print("[+] NOTICE: Starting local saving for all feeds.")
     for feed in allFeeds: 
