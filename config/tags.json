@@ -1,0 +1,282 @@
+[
+    {
+        "tag_name":"zero-day",
+        "tag_desc":"Zero Day",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"zero day",
+        "tag_desc":"Zero Day",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"zeroday",
+        "tag_desc":"Zero Day ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"Iran",
+        "tag_desc":"Iran",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"Iranian ",
+        "tag_desc":"Iranian",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"North Korea",
+        "tag_desc":"North Korea ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"North Korean",
+        "tag_desc":"North Korean",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"Russia",
+        "tag_desc":"Russia",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"Russian",
+        "tag_desc":"Russian",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"China",
+        "tag_desc":"China",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"Chinese",
+        "tag_desc":"Chinese",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"hacked",
+        "tag_desc":"hacked",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"breach",
+        "tag_desc":"breach",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"APT ",
+        "tag_desc":"Advanced Persistent Threat ",
+        "case_sensitive":true
+    },
+    {
+        "tag_name":"BianLian",
+        "tag_desc":"BianLian Ransomware Group",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"GOSSAMER BEAR",
+        "tag_desc":"GOSSAMER BEAR",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"COZY BEAR ",
+        "tag_desc":"COZY BEAR",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"VOODOO BEAR",
+        "tag_desc":"VOODOO BEAR ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"CHARMING KITTEN",
+        "tag_desc":"CHARMING KITTEN",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"BERSERK BEAR",
+        "tag_desc":"BERSERK BEAR",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"VENOMOUS BEAR",
+        "tag_desc":"VENOMOUS BEAR",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"SILENT CHOLLIMA",
+        "tag_desc":"SILENT CHOLLIMA ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"LABYRINTH CHOLLIMA",
+        "tag_desc":"LABYRINTH CHOLLIMA",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"STATIC KITTEN",
+        "tag_desc":"STATIC KITTEN",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"IMPERIAL KITTEN",
+        "tag_desc":"IMPERIAL KITTEN",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"KRYPTONITE PANDA",
+        "tag_desc":"KRYPTONITE PANDA",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"WICKED PANDA",
+        "tag_desc":"WICKED PANDA ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"VELVET CHOLLIMA",
+        "tag_desc":"VELVET CHOLLIMA",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"PIONEER KITTEN",
+        "tag_desc":"PIONEER KITTEN",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"CHRONO KITTEN",
+        "tag_desc":"CHRONO KITTEN ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"PUZZLE PANDA ",
+        "tag_desc":"PUZZLE PANDA ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"MUSTANG PANDA ",
+        "tag_desc":"MUSTANG PANDA",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"PIRATE PANDA ",
+        "tag_desc":"PIRATE PANDA",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"VIXEN PANDA ",
+        "tag_desc":"VIXEN PANDA ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"EMISSARY PANDA ",
+        "tag_desc":"EMISSARY PANDA ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"PINCHY SPIDER ",
+        "tag_desc":"PINCHY SPIDER ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"VIKING SPIDER ",
+        "tag_desc":"VIKING SPIDER",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"WIZARD SPIDER ",
+        "tag_desc":"WIZARD SPIDER",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"HIVE SPIDER",
+        "tag_desc":"HIVE SPIDER ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"AVIATOR SPIDER ",
+        "tag_desc":"AVIATOR SPIDER ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"CARBON SPIDER ",
+        "tag_desc":"CARBON SPIDER ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"INDRIK SPIDER",
+        "tag_desc":"INDRIK SPIDER",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"BITWISE SPIDER",
+        "tag_desc":"BITWISE SPIDER",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"FERAL SPIDER",
+        "tag_desc":"FERAL SPIDER",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"CYBORG SPIDER",
+        "tag_desc":"CYBORG SPIDER",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"GRACEFUL SPIDER",
+        "tag_desc":"GRACEFUL SPIDER",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"DOPPEL SPIDER ",
+        "tag_desc":"DOPPEL SPIDER",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"VICE SPIDER",
+        "tag_desc":"VICE SPIDER",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"SMOKY SPIDER ",
+        "tag_desc":"SMOKY SPIDER",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"SPRITE SPIDER",
+        "tag_desc":"SPRITE SPIDER",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"FRONTLINE JACKAL",
+        "tag_desc":"FRONTLINE JACKAL",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"AI",
+        "tag_desc":"Artificial Intelligence ",
+        "case_sensitive":true
+    },
+    {
+        "tag_name":"artificial intelligence ",
+        "tag_desc":"Artificial Intelligence ",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"CVE",
+        "tag_desc":"CVE",
+        "case_sensitive":true
+    },
+    {
+        "tag_name":"Lazarus ",
+        "tag_desc":"Lazarus Group (LABYRINTH CHOLLIMA)",
+        "case_sensitive":false
+    },
+    {
+        "tag_name":"XSS",
+        "tag_desc":"Cross-site-scripting",
+        "case_sensitive":true
+    }
+]

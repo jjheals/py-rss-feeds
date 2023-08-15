@@ -1,0 +1,1310 @@
+[*] INFO FOR Topic ID: 0
+	Details: 0.041*"census" + 0.027*"blog" + 0.016*"director" + 0.014*"within" + 0.010*"global" + 0.010*"reach" + 0.010*"matter" + 0.009*"research" + 0.008*"random" + 0.008*"sampling"
+	Articles:
+Censys Director Blog: 10 Questions, 10 Minutes
+	Link: https://www.census.gov/newsroom/blogs/director/2010/04/10-questions-10-minutes.html
+	Publish Date: 2021-10-08
+	Description: 10 Questions, 10 Minutes
+
+Censys Director Blog: 2015 Census Test Starts Today in the Savannah, Ga. Area
+	Link: https://www.census.gov/newsroom/blogs/director/2015/03/2015-census-test-starts-today-in-the-savannah-ga-area-2.html
+	Publish Date: 2022-03-22
+	Description: 2015 Census Test Starts Today in the Savannah, Ga. Area
+
+Censys Director Blog: A Little Known Special Day
+	Link: https://www.census.gov/newsroom/blogs/director/2012/01/a-little-known-special-day.html
+	Publish Date: 2021-10-08
+	Description: A Little Known Special Day
+
+Censys Director Blog: A Look From the Inside
+	Link: https://www.census.gov/newsroom/blogs/director/2009/10/the-blog-begins.html
+	Publish Date: 2021-10-08
+	Description: A Look From the Inside
+
+Censys Director Blog: A Note to my 600,000 New Colleagues
+	Link: https://www.census.gov/newsroom/blogs/director/2010/05/a-note-to-my-600000-new-colleagues.html
+	Publish Date: 2021-10-08
+	Description: A Note to my 600,000 New Colleagues
+
+Censys Director Blog: A Proud Day For The Census
+	Link: https://www.census.gov/newsroom/blogs/director/2010/03/a-proud-day-for-the-census.html
+	Publish Date: 2021-10-08
+	Description: A Proud Day For The Census
+
+Censys Global Reach: A Video On How To Use The Shipment Manager
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2011/08/video-on-how-to-use-the-shipment-manager.html
+	Publish Date: 2022-04-21
+	Description: A Video On How To Use The Shipment Manager
+
+Censys Global Reach: AES Compliance Webinars and Seminars
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/09/aes-compliance-webinars-and-seminars.html
+	Publish Date: 2021-10-08
+	Description: AES Compliance Webinars and Seminars
+
+Hacker News: AI arms race: a look at how Silicon Valley is helping the U.S.
+	Link: https://www.ft.com/content/2ed278cc-6c3f-4569-b73c-64ad378f3ea8
+	Publish Date: 2023-07-31
+	Description: AI arms race: a look at how Silicon Valley is helping the U.S.
+
+Censys Director Blog: All Packed And Ready to go
+	Link: https://www.census.gov/newsroom/blogs/director/2009/10/all-packed-and-ready-to-go.html
+	Publish Date: 2021-10-08
+	Description: All Packed And Ready to go
+
+Censys Director Blog: And so, it Began �
+	Link: https://www.census.gov/newsroom/blogs/director/2010/01/and-so-it-began.html
+	Publish Date: 2021-10-08
+	Description: And so, it Began �
+
+BleepingComputer: Apple rejects new name 'X' for Twitter iOS app because... rules
+	Link: https://www.bleepingcomputer.com/news/technology/apple-rejects-new-name-x-for-twitter-ios-app-because-rules/
+	Publish Date: 2023-07-29
+	Description: Apple rejects new name 'X' for Twitter iOS app because... rules
+
+BleepingComputer: Apple says new App Store API rules will limit user fingerprinting
+	Link: https://www.bleepingcomputer.com/news/apple/apple-says-new-app-store-api-rules-will-limit-user-fingerprinting/
+	Publish Date: 2023-07-28
+	Description: Apple says new App Store API rules will limit user fingerprinting
+
+Censys Global Reach: Are You Prepared to Export?
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2013/05/are-you-prepared-to-export.html
+	Publish Date: 2021-10-08
+	Description: Are You Prepared to Export?
+
+Censys Global Reach: Are Your Rough Diamonds Kimberley Process Certified?
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2011/03/are-your-rough-diamonds-kimberley-process-certified.html
+	Publish Date: 2022-04-21
+	Description: Are Your Rough Diamonds Kimberley Process Certified?
+
+Censys Director Blog: Be Careful!  Labeling a County as �Dying� is Dangerous
+	Link: https://www.census.gov/newsroom/blogs/director/2011/03/be-careful-labeling-a-county-as-dying-is-dangerous.html
+	Publish Date: 2021-10-08
+	Description: Be Careful!  Labeling a County as �Dying� is Dangerous
+
+Censys Director Blog: Big Day Today
+	Link: https://www.census.gov/newsroom/blogs/director/2010/02/big-day-today.html
+	Publish Date: 2021-10-08
+	Description: Big Day Today
+
+BleepingComputer: Browser developers push back on Google's “web DRM” WEI API
+	Link: https://www.bleepingcomputer.com/news/google/browser-developers-push-back-on-googles-web-drm-wei-api/
+	Publish Date: 2023-07-29
+	Description: Browser developers push back on Google's “web DRM” WEI API
+
+Censys Director Blog: Celebrate Constitution Day by Completing the 2020 Census
+	Link: https://www.census.gov/newsroom/blogs/director/2020/09/celebrate-constitution-day.html
+	Publish Date: 2021-10-08
+	Description: Celebrate Constitution Day by Completing the 2020 Census
+
+Censys Director Blog: Celebrating Our Day of Independence as a Wonderfully More Diverse People
+	Link: https://www.census.gov/newsroom/blogs/director/2022/07/celebrating-our-day-of-independence.html
+	Publish Date: 2022-07-01
+	Description: Celebrating Our Day of Independence as a Wonderfully More Diverse People
+
+Censys Director Blog: Census Bureau Recognized at White House Innovation Event
+	Link: https://www.census.gov/newsroom/blogs/director/2012/08/census-bureau-recognized-at-white-house-innovation-event.html
+	Publish Date: 2022-03-22
+	Description: Census Bureau Recognized at White House Innovation Event
+
+Censys Director Blog: Census Day For The 23rd Census of The United States
+	Link: https://www.census.gov/newsroom/blogs/director/2010/04/census-day-for-the-23rd-census-of-the-united-states.html
+	Publish Date: 2022-03-22
+	Description: Census Day For The 23rd Census of The United States
+
+Censys Director Blog: Census in Schools Kickoff
+	Link: https://www.census.gov/newsroom/blogs/director/2009/11/census-in-schools-kickoff.html
+	Publish Date: 2022-03-22
+	Description: Census in Schools Kickoff
+
+MSRC Security Update Guide: Chromium: CVE-2023-2929 Out of bounds write in Swiftshader
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2929
+	Publish Date: 2023-06-02
+	Description: Chromium: CVE-2023-2929 Out of bounds write in Swiftshader
+
+BleepingComputer: CISA: New Submarine malware found on hacked Barracuda ESG appliances
+	Link: https://www.bleepingcomputer.com/news/security/cisa-new-submarine-malware-found-on-hacked-barracuda-esg-appliances/
+	Publish Date: 2023-07-28
+	Description: CISA: New Submarine malware found on hacked Barracuda ESG appliances
+
+Censys Global Reach: Connecting With You Virtually – Webinars
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/12/connecting-with-you-virtually-webinars.html
+	Publish Date: 2022-04-15
+	Description: Connecting With You Virtually – Webinars
+
+Censys Director Blog: Costs of the Census; Some Good News
+	Link: https://www.census.gov/newsroom/blogs/director/2010/08/costs-of-the-census-some-good-news.html
+	Publish Date: 2021-10-08
+	Description: Costs of the Census; Some Good News
+
+Censys Director Blog: Counting Everyone Once, Only Once and in the Right Place
+	Link: https://www.census.gov/newsroom/blogs/director/2018/11/counting_everyoneon.html
+	Publish Date: 2021-10-08
+	Description: Counting Everyone Once, Only Once and in the Right Place
+
+[*] INFO FOR Topic ID: 1
+	Details: 0.042*"export" + 0.030*"aes" + 0.019*"ace" + 0.018*"trade" + 0.017*"report" + 0.016*"blog" + 0.014*"transaction" + 0.013*"shipment" + 0.013*"eei" + 0.012*"filing"
+	Articles:
+Censys Global Reach: Accessing AESDirect in the Automated Commercial Environment
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2018/06/accessing_aesdirect.html
+	Publish Date: 2021-10-08
+	Description: Accessing AESDirect in the Automated Commercial Environment
+
+Censys Global Reach: ACE AESDirect Walkthrough Videos Available in English and Spanish
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2019/10/ace_aesdirect_walkth.html
+	Publish Date: 2021-10-08
+	Description: ACE AESDirect Walkthrough Videos Available in English and Spanish
+
+Censys Global Reach: ACE Export Accounts and Export Trade Reports! Not AESDirect
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2015/07/ace-export-accounts-and-export-trade-reports-not-aesdirect.html
+	Publish Date: 2021-12-16
+	Description: ACE Export Accounts and Export Trade Reports! Not AESDirect
+
+Censys Global Reach: ACE Export Reports in a Nutshell
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2016/04/ace-export-reports-in-a-nutshell.html
+	Publish Date: 2021-10-08
+	Description: ACE Export Reports in a Nutshell
+
+Censys Global Reach: ACE Support Desk and ITMD Help Line. Who Do You Call?
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2018/08/ace_support_deskand.html
+	Publish Date: 2021-10-08
+	Description: ACE Support Desk and ITMD Help Line. Who Do You Call?
+
+Censys Global Reach: Advanced Notice of Proposed Rulemaking: Request for Public Comments Regarding Standard and Routed Export Transactions
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2017/10/advanced_notice_ofp.html
+	Publish Date: 2021-10-08
+	Description: Advanced Notice of Proposed Rulemaking: Request for Public Comments Regarding Standard and Routed Export Transactions
+
+Censys Global Reach: AES Filing: Plan for the Unexpected
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2014/10/aes-filing-plan-for-the-unexpected.html
+	Publish Date: 2021-10-08
+	Description: AES Filing: Plan for the Unexpected
+
+Censys Global Reach: ALERT! Delay of the effective date for changes to the Foreign Trade Regulations (FTR)
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2013/11/alert-delay-of-the-ftr.html
+	Publish Date: 2021-10-08
+	Description: ALERT! Delay of the effective date for changes to the Foreign Trade Regulations (FTR)
+
+Censys Global Reach: Annotating an Export Shipment: Filing Citations, Exemption and Exclusion Legends
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2016/10/annotating_an_export.html
+	Publish Date: 2021-10-08
+	Description: Annotating an Export Shipment: Filing Citations, Exemption and Exclusion Legends
+
+Censys Global Reach: Automated Commercial Environment Export Reports� What�s New?
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2017/09/automated_commercial.html
+	Publish Date: 2021-12-16
+	Description: Automated Commercial Environment Export Reports� What�s New?
+
+Censys Global Reach: Becoming Familiar With Automated Export System Downtime Procedures
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2017/09/becoming-familiar-aes.html
+	Publish Date: 2021-12-16
+	Description: Becoming Familiar With Automated Export System Downtime Procedures
+
+Censys Global Reach: Can Foreign Entities be Reported as USPPI and Report  EEI in the AES?
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2011/09/can-foreign-entities-be-reported-as-the-usppi.html
+	Publish Date: 2022-04-27
+	Description: Can Foreign Entities be Reported as USPPI and Report  EEI in the AES?
+
+Censys Global Reach: CBP Pipeline Clarification
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2015/10/cbp-pipeline-clarification.html
+	Publish Date: 2021-12-16
+	Description: CBP Pipeline Clarification
+
+Censys Global Reach: Choosing the Ultimate Consignee Type
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2014/07/choosing-the-ultimate-consignee-type.html
+	Publish Date: 2021-10-08
+	Description: Choosing the Ultimate Consignee Type
+
+Censys Global Reach: Clarification Of Routed Export Transactions
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/04/clarification-of-routed-export-tansactions.html
+	Publish Date: 2021-10-08
+	Description: Clarification Of Routed Export Transactions
+
+Censys Global Reach: Clarification to October 2010 Newsletter – DSP-5 licenses in the AES
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2012/04/clarification-to-october-2010-newsletter-dsp-5-licenses-in-the-aes.html
+	Publish Date: 2022-09-09
+	Description: Clarification to October 2010 Newsletter – DSP-5 licenses in the AES
+
+Censys Global Reach: Combating the Fear of Routed Export Transactions
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2017/10/combating_the_fearo.html
+	Publish Date: 2021-10-08
+	Description: Combating the Fear of Routed Export Transactions
+
+Censys Global Reach: Compliance and Confidentiality: Acquiring your Export Data
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2013/02/compliance-and-confidentiality-acquiring-your-export-data.html
+	Publish Date: 2021-10-08
+	Description: Compliance and Confidentiality: Acquiring your Export Data
+
+[*] INFO FOR Topic ID: 2
+	Details: 0.033*"chromium" + 0.022*"use" + 0.021*"free" + 0.017*"appendix" + 0.017*"game" + 0.016*"video" + 0.015*"import" + 0.015*"system" + 0.012*"support" + 0.011*"quarter"
+	Articles:
+MSRC Security Update Guide: ADV230001 Guidance on Microsoft Signed Drivers Being Used Maliciously
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/ADV230001
+	Publish Date: 2023-07-11
+	Description: ADV230001 Guidance on Microsoft Signed Drivers Being Used Maliciously
+
+MSRC Security Update Guide: ADV230002 Microsoft Guidance for Addressing Security Feature Bypass in Trend Micro EFI Modules
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/ADV230002
+	Publish Date: 2023-07-11
+	Description: ADV230002 Microsoft Guidance for Addressing Security Feature Bypass in Trend Micro EFI Modules
+
+Censys Global Reach: Appendices A,D,F, and U: Get to know them better
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/06/appendices-adf-and-u-get-to-know-them-better.html
+	Publish Date: 2022-04-14
+	Description: Appendices A,D,F, and U: Get to know them better
+
+MSRC Security Update Guide: Chromium: CVE-2023-2460 Insufficient validation of untrusted input in Extensions
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2460
+	Publish Date: 2023-05-05
+	Description: Chromium: CVE-2023-2460 Insufficient validation of untrusted input in Extensions
+
+MSRC Security Update Guide: Chromium: CVE-2023-2721 Use after free in Navigation
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2721
+	Publish Date: 2023-05-18
+	Description: Chromium: CVE-2023-2721 Use after free in Navigation
+
+MSRC Security Update Guide: Chromium: CVE-2023-2722 Use after free in Autofill UI
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2722
+	Publish Date: 2023-05-18
+	Description: Chromium: CVE-2023-2722 Use after free in Autofill UI
+
+MSRC Security Update Guide: Chromium: CVE-2023-2723 Use after free in DevTools
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2723
+	Publish Date: 2023-05-18
+	Description: Chromium: CVE-2023-2723 Use after free in DevTools
+
+MSRC Security Update Guide: Chromium: CVE-2023-2724 Type Confusion in V8
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2724
+	Publish Date: 2023-05-18
+	Description: Chromium: CVE-2023-2724 Type Confusion in V8
+
+MSRC Security Update Guide: Chromium: CVE-2023-2725 Use after free in Guest View
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2725
+	Publish Date: 2023-05-18
+	Description: Chromium: CVE-2023-2725 Use after free in Guest View
+
+MSRC Security Update Guide: Chromium: CVE-2023-2930 Use after free in Extensions
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2930
+	Publish Date: 2023-06-02
+	Description: Chromium: CVE-2023-2930 Use after free in Extensions
+
+MSRC Security Update Guide: Chromium: CVE-2023-2931 Use after free in PDF
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2931
+	Publish Date: 2023-06-02
+	Description: Chromium: CVE-2023-2931 Use after free in PDF
+
+MSRC Security Update Guide: Chromium: CVE-2023-2932 Use after free in PDF
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2932
+	Publish Date: 2023-06-02
+	Description: Chromium: CVE-2023-2932 Use after free in PDF
+
+MSRC Security Update Guide: Chromium: CVE-2023-2933 Use after free in PDF
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2933
+	Publish Date: 2023-06-02
+	Description: Chromium: CVE-2023-2933 Use after free in PDF
+
+MSRC Security Update Guide: Chromium: CVE-2023-2935 Type Confusion in V8
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2935
+	Publish Date: 2023-06-02
+	Description: Chromium: CVE-2023-2935 Type Confusion in V8
+
+MSRC Security Update Guide: Chromium: CVE-2023-2936 Type Confusion in V8
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2936
+	Publish Date: 2023-06-02
+	Description: Chromium: CVE-2023-2936 Type Confusion in V8
+
+MSRC Security Update Guide: Chromium: CVE-2023-2939 Insufficient data validation in Installer
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2939
+	Publish Date: 2023-06-02
+	Description: Chromium: CVE-2023-2939 Insufficient data validation in Installer
+
+MSRC Security Update Guide: Chromium: CVE-2023-3079 Type Confusion in V8
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3079
+	Publish Date: 2023-06-06
+	Description: Chromium: CVE-2023-3079 Type Confusion in V8
+
+MSRC Security Update Guide: Chromium: CVE-2023-3214 Use after free in Autofill payments
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3214
+	Publish Date: 2023-06-15
+	Description: Chromium: CVE-2023-3214 Use after free in Autofill payments
+
+MSRC Security Update Guide: Chromium: CVE-2023-3215 Use after free in WebRTC
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3215
+	Publish Date: 2023-06-15
+	Description: Chromium: CVE-2023-3215 Use after free in WebRTC
+
+MSRC Security Update Guide: Chromium: CVE-2023-3216 Type Confusion in V8
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3216
+	Publish Date: 2023-06-15
+	Description: Chromium: CVE-2023-3216 Type Confusion in V8
+
+MSRC Security Update Guide: Chromium: CVE-2023-3217 Use after free in WebXR
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3217
+	Publish Date: 2023-06-15
+	Description: Chromium: CVE-2023-3217 Use after free in WebXR
+
+MSRC Security Update Guide: Chromium: CVE-2023-3420 Type Confusion in V8
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3420
+	Publish Date: 2023-06-29
+	Description: Chromium: CVE-2023-3420 Type Confusion in V8
+
+MSRC Security Update Guide: Chromium: CVE-2023-3421 Use after free in Media
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3421
+	Publish Date: 2023-06-29
+	Description: Chromium: CVE-2023-3421 Use after free in Media
+
+MSRC Security Update Guide: Chromium: CVE-2023-3422 Use after free in Guest View
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3422
+	Publish Date: 2023-06-29
+	Description: Chromium: CVE-2023-3422 Use after free in Guest View
+
+MSRC Security Update Guide: Chromium: CVE-2023-3727 Use after free in WebRTC
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3727
+	Publish Date: 2023-07-21
+	Description: Chromium: CVE-2023-3727 Use after free in WebRTC
+
+MSRC Security Update Guide: Chromium: CVE-2023-3728 Use after free in WebRTC
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3728
+	Publish Date: 2023-07-21
+	Description: Chromium: CVE-2023-3728 Use after free in WebRTC
+
+MSRC Security Update Guide: Chromium: CVE-2023-3730 Use after free in Tab Groups
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3730
+	Publish Date: 2023-07-21
+	Description: Chromium: CVE-2023-3730 Use after free in Tab Groups
+
+MSRC Security Update Guide: Chromium: CVE-2023-3740 Insufficient validation of untrusted input in Themes
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3740
+	Publish Date: 2023-07-21
+	Description: Chromium: CVE-2023-3740 Insufficient validation of untrusted input in Themes
+
+Censys Global Reach: Commodity Spotlight: Video Game Systems
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2011/04/videogamesystems.html
+	Publish Date: 2021-10-08
+	Description: Commodity Spotlight: Video Game Systems
+
+[*] INFO FOR Topic ID: 3
+	Details: 0.037*"census" + 0.034*"survey" + 0.020*"data" + 0.016*"blog" + 0.016*"bureau" + 0.014*"community" + 0.014*"program" + 0.013*"research" + 0.013*"american" + 0.012*"business"
+	Articles:
+Censys Director Blog: 2015 National Content Test Results Released This Week
+	Link: https://www.census.gov/newsroom/blogs/director/2017/03/2015_national_conten.html
+	Publish Date: 2023-07-05
+	Description: 2015 National Content Test Results Released This Week
+
+Censys Director Blog: A Timely Portrait of America's Business Owners from the ASE
+	Link: https://www.census.gov/newsroom/blogs/director/2015/09/a-timely-portrait-of-americas-business-owners-from-the-annual-survey-of-entrepreneurs.html
+	Publish Date: 2022-03-22
+	Description: A Timely Portrait of America's Business Owners from the ASE
+
+Censys Director Blog: Answers to Your Census Bureau Questions Are Just a Phone Call Away
+	Link: https://www.census.gov/newsroom/blogs/director/2014/12/everything-you-want-to-know-about-the-census-bureau-is-just-a-phone-call-away.html
+	Publish Date: 2021-10-08
+	Description: Answers to Your Census Bureau Questions Are Just a Phone Call Away
+
+Censys Director Blog: Back to School – Introducing the Statistics in Schools Program
+	Link: https://www.census.gov/newsroom/blogs/director/2014/09/back-to-school-introducing-the-statistics-in-schools-program.html
+	Publish Date: 2022-09-15
+	Description: Back to School – Introducing the Statistics in Schools Program
+
+Censys Global Reach: Back to School, Back to Basics
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2019/08/back_to_school_back.html
+	Publish Date: 2023-02-14
+	Description: Back to School, Back to Basics
+
+Censys Director Blog: Calling All American Community Survey Data Users
+	Link: https://www.census.gov/newsroom/blogs/director/2015/05/calling-all-american-community-survey-data-users.html
+	Publish Date: 2022-11-09
+	Description: Calling All American Community Survey Data Users
+
+Censys Director Blog: Census Bureau Budget Update
+	Link: https://www.census.gov/newsroom/blogs/director/2013/06/census-bureau-budget-update-2.html
+	Publish Date: 2021-10-08
+	Description: Census Bureau Budget Update
+
+Censys Director Blog: Collecting Reliable, Timely and Local Census Data
+	Link: https://www.census.gov/newsroom/blogs/director/2014/06/collecting-reliable-timely-and-local-census-data.html
+	Publish Date: 2022-03-22
+	Description: Collecting Reliable, Timely and Local Census Data
+
+[*] INFO FOR Topic ID: 4
+	Details: 0.038*"census" + 0.022*"blog" + 0.012*"within" + 0.012*"director" + 0.011*"population" + 0.010*"data" + 0.009*"bureau" + 0.009*"global" + 0.008*"reach" + 0.008*"downtime"
+	Articles:
+Censys Director Blog: 2020 Census Outreach – Final Stretch
+	Link: https://www.census.gov/newsroom/blogs/director/2020/08/2020_census_outreach.html
+	Publish Date: 2021-10-08
+	Description: 2020 Census Outreach – Final Stretch
+
+Censys Director Blog: A Data-Filled Fall
+	Link: https://www.census.gov/newsroom/blogs/director/2010/09/a-data-filled-fall.html
+	Publish Date: 2021-10-08
+	Description: A Data-Filled Fall
+
+Censys Global Reach: A look into the AES Downtime Policy
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/07/a-look-into-the-aes-downtime-policy.html
+	Publish Date: 2021-10-08
+	Description: A look into the AES Downtime Policy
+
+Censys Director Blog: A Surprise Reaction
+	Link: https://www.census.gov/newsroom/blogs/director/2010/04/a-surprise-reaction.html
+	Publish Date: 2021-10-08
+	Description: A Surprise Reaction
+
+Censys Director Blog: As The Nonresponse Followup Proceeds �
+	Link: https://www.census.gov/newsroom/blogs/director/2010/06/as-the-nonresponse-followup-proceeds.html
+	Publish Date: 2021-10-08
+	Description: As The Nonresponse Followup Proceeds �
+
+Censys Global Reach: Back to the Basics – Ensuring Your Privacy, Leave the EIN Out!
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2012/05/back-to-the-basics.html
+	Publish Date: 2022-09-09
+	Description: Back to the Basics – Ensuring Your Privacy, Leave the EIN Out!
+
+Censys Director Blog: Celebrating World Population Day
+	Link: https://www.census.gov/newsroom/blogs/director/2023/07/celebrating-world-population-day.html
+	Publish Date: 2023-07-11
+	Description: Celebrating World Population Day
+
+Censys Director Blog: Celebrating World Statistics Day
+	Link: https://www.census.gov/newsroom/blogs/director/2010/10/world-statistics-day.html
+	Publish Date: 2021-10-08
+	Description: Celebrating World Statistics Day
+
+Censys Director Blog: Census Advisory Committees Add Value
+	Link: https://www.census.gov/newsroom/blogs/director/2014/07/census-advisory-committees-add-value.html
+	Publish Date: 2022-03-22
+	Description: Census Advisory Committees Add Value
+
+Censys Director Blog: Census Bureau Data Shows Gulf Coast's Recovery from Hurricane Katrina
+	Link: https://www.census.gov/newsroom/blogs/director/2015/08/u-s-census-bureau-data-shows-gulf-coasts-recovery-from-hurricane-katrina.html
+	Publish Date: 2022-03-22
+	Description: Census Bureau Data Shows Gulf Coast's Recovery from Hurricane Katrina
+
+Censys Director Blog: Checking Out a Future Questionnaire Assistance Center
+	Link: https://www.census.gov/newsroom/blogs/director/2009/11/checking-out-a-future-questionnaire-assistance-center.html
+	Publish Date: 2021-10-08
+	Description: Checking Out a Future Questionnaire Assistance Center
+
+Censys Director Blog: Counting Those Not in Traditional Housing Units
+	Link: https://www.census.gov/newsroom/blogs/director/2010/03/counting-those-not-in-traditional-housing-units.html
+	Publish Date: 2021-10-08
+	Description: Counting Those Not in Traditional Housing Units
+
+[*] INFO FOR Topic ID: 5
+	Details: 0.040*"nist" + 0.034*"laboratory" + 0.025*"research" + 0.024*"office" + 0.021*"standard" + 0.021*"program" + 0.020*"technology" + 0.016*"material" + 0.015*"resource" + 0.015*"service"
+	Articles:
+NIST Cybersecurity and IT news and events: 2023 Iris Experts Group (IEG) Meeting
+	Link: https://www.nist.gov/news-events/events/2023/06/2023-iris-experts-group-ieg-meeting
+	Publish Date: 2023-06-15
+	Description: 2023 Iris Experts Group (IEG) Meeting
+
+NIST Cybersecurity and IT news and events: 2nd International Workshop on FAIR Containerized Computational Software
+	Link: https://www.nist.gov/news-events/events/2023/12/2nd-international-workshop-fair-containerized-computational-software
+	Publish Date: 2023-12-05
+	Description: 2nd International Workshop on FAIR Containerized Computational Software
+
+NIST Cybersecurity and IT news and events: 33rd Annual FISSEA Conference
+	Link: https://www.nist.gov/news-events/events/2023/05/33rd-annual-fissea-conference
+	Publish Date: 2023-05-16
+	Description: 33rd Annual FISSEA Conference
+
+NIST Cybersecurity and IT news and events: 4th Multi-cloud Conference and Workshop
+	Link: https://www.nist.gov/news-events/events/2023/05/4th-multi-cloud-conference-and-workshop
+	Publish Date: 2023-05-24
+	Description: 4th Multi-cloud Conference and Workshop
+
+NIST Cybersecurity and IT news and events: 5x5: The Public Safety Innovation Summit
+	Link: https://www.nist.gov/news-events/events/2023/06/5x5-public-safety-innovation-summit
+	Publish Date: 2023-06-28
+	Description: 5x5: The Public Safety Innovation Summit
+
+NIST Cybersecurity and IT news and events: 6G “Mailbox Theory” by NIST, University Researchers Receives Best Paper Award
+	Link: https://www.nist.gov/news-events/news/2023/05/6g-mailbox-theory-nist-university-researchers-receives-best-paper-award
+	Publish Date: 2023-05-01
+	Description: 6G “Mailbox Theory” by NIST, University Researchers Receives Best Paper Award
+
+NIST Cybersecurity and IT news and events: 9th Annual NICE K12 Cybersecurity Education Conference
+	Link: https://www.nist.gov/news-events/events/2023/12/9th-annual-nice-k12-cybersecurity-education-conference
+	Publish Date: 2023-12-04
+	Description: 9th Annual NICE K12 Cybersecurity Education Conference
+
+NIST Cybersecurity and IT news and events: A Vision and Strategy for the National Semiconductor Technology Center
+	Link: https://www.nist.gov/news-events/events/2023/04/vision-and-strategy-national-semiconductor-technology-center
+	Publish Date: 2023-04-26
+	Description: A Vision and Strategy for the National Semiconductor Technology Center
+
+NIST Cybersecurity and IT news and events: AI Can Accurately Predict Potentially Fatal Cardiac Events in Firefighters
+	Link: https://www.nist.gov/news-events/news/2023/07/ai-can-accurately-predict-potentially-fatal-cardiac-events-firefighters
+	Publish Date: 2023-07-11
+	Description: AI Can Accurately Predict Potentially Fatal Cardiac Events in Firefighters
+
+NIST Cybersecurity and IT news and events: An Introduction to Draft SP 800-157 Rev 1, Derived PIV Credentials and SP 800-217, PIV Federation
+	Link: https://www.nist.gov/news-events/events/2023/02/introduction-draft-sp-800-157-rev-1-derived-piv-credentials-and-sp-800
+	Publish Date: 2023-02-01
+	Description: An Introduction to Draft SP 800-157 Rev 1, Derived PIV Credentials and SP 800-217, PIV Federation
+
+NIST Cybersecurity and IT news and events: Announcement of Proposal to Revise FIPS 180-4, Secure Hash Standard (SHS)
+	Link: https://www.nist.gov/news-events/news/2022/12/announcement-proposal-revise-fips-180-4-secure-hash-standard-shs
+	Publish Date: 2022-12-15
+	Description: Announcement of Proposal to Revise FIPS 180-4, Secure Hash Standard (SHS)
+
+NIST Cybersecurity and IT news and events: Announcement of Proposal to Update FIPS 197, The Advanced Encryption Standard
+	Link: https://www.nist.gov/news-events/news/2022/12/announcement-proposal-update-fips-197-advanced-encryption-standard
+	Publish Date: 2022-12-19
+	Description: Announcement of Proposal to Update FIPS 197, The Advanced Encryption Standard
+
+NIST Cybersecurity and IT news and events: Announcement of Proposal to Update NIST SP 800-38E, Using the XTS-AES Mode for Confidentiality on Storage Devices
+	Link: https://www.nist.gov/news-events/news/2023/02/announcement-proposal-update-nist-sp-800-38e-using-xts-aes-mode
+	Publish Date: 2023-02-08
+	Description: Announcement of Proposal to Update NIST SP 800-38E, Using the XTS-AES Mode for Confidentiality on Storage Devices
+
+NIST Cybersecurity and IT news and events: Applying the Cybersecurity Framework to Satellite Command and Control: NIST Interagency Report (IR) 8401
+	Link: https://www.nist.gov/news-events/news/2023/01/applying-cybersecurity-framework-satellite-command-and-control-nist
+	Publish Date: 2023-01-03
+	Description: Applying the Cybersecurity Framework to Satellite Command and Control: NIST Interagency Report (IR) 8401
+
+NIST Cybersecurity and IT news and events: Biden-Harris Administration Announces New NIST Public Working Group on AI
+	Link: https://www.nist.gov/news-events/news/2023/06/biden-harris-administration-announces-new-nist-public-working-group-ai
+	Publish Date: 2023-06-22
+	Description: Biden-Harris Administration Announces New NIST Public Working Group on AI
+
+NIST Cybersecurity and IT news and events: Call for Comments on NIST Draft Revision 4 of SP 800-63: Digital Identity Guidelines
+	Link: https://www.nist.gov/news-events/news/2022/12/call-comments-nist-draft-revision-4-sp-800-63-digital-identity-guidelines
+	Publish Date: 2022-12-16
+	Description: Call for Comments on NIST Draft Revision 4 of SP 800-63: Digital Identity Guidelines
+
+NIST Cybersecurity and IT news and events: CHIPS for America Outlines Vision for the National Semiconductor Technology Center
+	Link: https://www.nist.gov/news-events/news/2023/04/chips-america-outlines-vision-national-semiconductor-technology-center
+	Publish Date: 2023-04-25
+	Description: CHIPS for America Outlines Vision for the National Semiconductor Technology Center
+
+NIST Cybersecurity and IT news and events: CHIPS for America Workforce Roundtable: Cross-Sector Partnerships
+	Link: https://www.nist.gov/news-events/events/2023/05/chips-america-workforce-roundtable-cross-sector-partnerships
+	Publish Date: 2023-05-10
+	Description: CHIPS for America Workforce Roundtable: Cross-Sector Partnerships
+
+NIST Cybersecurity and IT news and events: CHIPS for America: How to Complete a Full Application
+	Link: https://www.nist.gov/news-events/events/2023/06/chips-america-how-complete-full-application
+	Publish Date: 2023-06-21
+	Description: CHIPS for America: How to Complete a Full Application
+
+NIST Cybersecurity and IT news and events: CHIPS for America: Overview of the Environmental Questionnaire
+	Link: https://www.nist.gov/news-events/events/2023/05/chips-america-overview-environmental-questionnaire
+	Publish Date: 2023-05-11
+	Description: CHIPS for America: Overview of the Environmental Questionnaire
+
+MSRC Security Update Guide: Chromium: CVE-2023-2934 Out of bounds memory access in Mojo
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2934
+	Publish Date: 2023-06-02
+	Description: Chromium: CVE-2023-2934 Out of bounds memory access in Mojo
+
+MSRC Security Update Guide: Chromium: CVE-2023-3732 Out of bounds memory access in Mojo
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3732
+	Publish Date: 2023-07-21
+	Description: Chromium: CVE-2023-3732 Out of bounds memory access in Mojo
+
+NIST Cybersecurity and IT news and events: Creating and Reusing IoT Services – NIST, University Researchers Offer Solutions
+	Link: https://www.nist.gov/news-events/news/2023/05/creating-and-reusing-iot-services-nist-university-researchers-offer
+	Publish Date: 2023-05-01
+	Description: Creating and Reusing IoT Services – NIST, University Researchers Offer Solutions
+
+[*] INFO FOR Topic ID: 6
+	Details: 0.025*"meter" + 0.020*"unit" + 0.013*"comment" + 0.013*"window" + 0.013*"notice" + 0.011*"potential" + 0.011*"security" + 0.011*"issue" + 0.011*"measure" + 0.011*"page"
+	Articles:
+Censys Global Reach: A Mountain of Data
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/02/a-mountain-of-data.html
+	Publish Date: 2022-04-14
+	Description: A Mountain of Data
+
+Censys Global Reach: AES: Calculating Units of Measure
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2019/08/calculating-units-measure.html
+	Publish Date: 2023-02-14
+	Description: AES: Calculating Units of Measure
+
+MSRC Security Update Guide: CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerability
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2013-3900
+	Publish Date: 2023-05-09
+	Description: CVE-2013-3900 WinVerifyTrust Signature Validation Vulnerability
+
+National Vulnerability Database: CVE-2020-22623
+	Link: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-22623
+	Publish Date: 2023-07-27
+	Description: CVE-2020-22623
+
+National Vulnerability Database: CVE-2020-4868
+	Link: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2020-4868
+	Publish Date: 2023-07-31
+	Description: CVE-2020-4868
+
+National Vulnerability Database: CVE-2021-36580
+	Link: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-36580
+	Publish Date: 2023-07-27
+	Description: CVE-2021-36580
+
+National Vulnerability Database: CVE-2021-4316
+	Link: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-4316
+	Publish Date: 2023-07-29
+	Description: CVE-2021-4316
+
+National Vulnerability Database: CVE-2021-4317
+	Link: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-4317
+	Publish Date: 2023-07-29
+	Description: CVE-2021-4317
+
+National Vulnerability Database: CVE-2021-4318
+	Link: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-4318
+	Publish Date: 2023-07-29
+	Description: CVE-2021-4318
+
+National Vulnerability Database: CVE-2021-4319
+	Link: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-4319
+	Publish Date: 2023-07-29
+	Description: CVE-2021-4319
+
+National Vulnerability Database: CVE-2021-4320
+	Link: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-4320
+	Publish Date: 2023-07-29
+	Description: CVE-2021-4320
+
+National Vulnerability Database: CVE-2021-4321
+	Link: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-4321
+	Publish Date: 2023-07-29
+	Description: CVE-2021-4321
+
+National Vulnerability Database: CVE-2021-4322
+	Link: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-4322
+	Publish Date: 2023-07-29
+	Description: CVE-2021-4322
+
+National Vulnerability Database: CVE-2021-4323
+	Link: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-4323
+	Publish Date: 2023-07-29
+	Description: CVE-2021-4323
+
+National Vulnerability Database: CVE-2021-4324
+	Link: https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2021-4324
+	Publish Date: 2023-07-29
+	Description: CVE-2021-4324
+
+[*] INFO FOR Topic ID: 7
+	Details: 0.015*"tombstone" + 0.015*"deadwood" + 0.013*"participation" + 0.012*"mayor" + 0.008*"boost" + 0.008*"west" + 0.008*"boasting" + 0.008*"town" + 0.008*"challenge" + 0.008*"old"
+	Articles:
+Censys Director Blog: Boasting to Boost Participation
+	Link: https://www.census.gov/newsroom/blogs/director/2010/04/boasting-to-boost-participation.html
+	Publish Date: 2021-10-08
+	Description: Boasting to Boost Participation
+
+[*] INFO FOR Topic ID: 8
+	Details: 0.019*"marriage" + 0.011*"change" + 0.011*"recession" + 0.010*"number" + 0.010*"rate" + 0.008*"estimate" + 0.008*"married" + 0.008*"autofill" + 0.008*"decline" + 0.006*"elephant"
+	Articles:
+Censys Director Blog: Changes in Marriage Rates
+	Link: https://www.census.gov/newsroom/blogs/director/2010/10/changes-in-marriage-rates.html
+	Publish Date: 2021-12-16
+	Description: Changes in Marriage Rates
+
+[*] INFO FOR Topic ID: 9
+	Details: 0.045*"trade" + 0.031*"export" + 0.025*"blog" + 0.021*"billion" + 0.017*"global" + 0.017*"reach" + 0.015*"data" + 0.014*"within" + 0.013*"census" + 0.013*"foreign"
+	Articles:
+Censys Global Reach: 'Tis the Season of Holiday Shopping
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2018/12/_tis_the_season_ofh.html
+	Publish Date: 2023-02-14
+	Description: 'Tis the Season of Holiday Shopping
+
+Censys Global Reach: 2009: The Year in Trade
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/03/2009-the-year-in-trade.html
+	Publish Date: 2022-04-14
+	Description: 2009: The Year in Trade
+
+Censys Global Reach: 2010 SLA Annual Conference – Hope to see you there!
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/06/2010-sla-annual-conference-hope-to-see-you-there.html
+	Publish Date: 2022-09-12
+	Description: 2010 SLA Annual Conference – Hope to see you there!
+
+Censys Global Reach: 2013 Trade Deficit the Lowest Since 2009
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2014/02/2013-trade-deficit-the-lowest-since-2009.html
+	Publish Date: 2021-12-16
+	Description: 2013 Trade Deficit the Lowest Since 2009
+
+Censys Global Reach: 2014 FTD Customer Service Survey
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2014/09/2014-ftd-customer-service-survey.html
+	Publish Date: 2021-12-16
+	Description: 2014 FTD Customer Service Survey
+
+Censys Global Reach: A Look into Foreign Trade Zones
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2013/08/ftzs.html
+	Publish Date: 2021-10-08
+	Description: A Look into Foreign Trade Zones
+
+Censys Global Reach: A Starting Point to Export License Information
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2020/02/a_starting_pointto.html
+	Publish Date: 2021-10-08
+	Description: A Starting Point to Export License Information
+
+Censys Global Reach: A Tool for Foreign Trade Zones
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2012/09/tool-for-foreign-trade-zones.html
+	Publish Date: 2022-05-06
+	Description: A Tool for Foreign Trade Zones
+
+Censys Global Reach: April 2012 Trade Data
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2012/06/april2012.html
+	Publish Date: 2021-12-16
+	Description: April 2012 Trade Data
+
+Censys Global Reach: April Trade Data Released
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/06/april-trade-data-released.html
+	Publish Date: 2022-04-14
+	Description: April Trade Data Released
+
+Censys Global Reach: August 2014, Trade Deficit Decreases
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2014/10/august-2014-trade-deficit-decreases.html
+	Publish Date: 2021-10-08
+	Description: August 2014, Trade Deficit Decreases
+
+Censys Global Reach: August Accelerates Automotive Exports
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2013/10/august-accelerates-automotive-exports.html
+	Publish Date: 2021-12-16
+	Description: August Accelerates Automotive Exports
+
+Censys Global Reach: Automated Export System Compliance Seminar Schedule 2016
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2016/02/automated-export-system-compliance-seminar-schedule-2016.html
+	Publish Date: 2021-10-08
+	Description: Automated Export System Compliance Seminar Schedule 2016
+
+Censys Global Reach: Collaboration Crushes Trade Fraud
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2015/10/collaboration-crushes-trade-fraud.html
+	Publish Date: 2021-12-16
+	Description: Collaboration Crushes Trade Fraud
+
+Censys Global Reach: College Teachers Return to School to Learn About Exporting
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2011/06/college-teachers-return-to-school-to-learn-about-exporting.html
+	Publish Date: 2022-04-21
+	Description: College Teachers Return to School to Learn About Exporting
+
+Censys Global Reach: Coming to an Area Near You! AES Compliance Seminars
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2014/02/coming-to-an-area-near-you-aes-compliance-seminars.html
+	Publish Date: 2021-12-16
+	Description: Coming to an Area Near You! AES Compliance Seminars
+
+Censys Global Reach: Commodity Spotlight: Cotton
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2014/06/commodity-spotlight-cotton.html
+	Publish Date: 2021-10-08
+	Description: Commodity Spotlight: Cotton
+
+Censys Global Reach: Commodity Spotlight: Diamonds
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2014/10/commodity-spotlight-diamonds.html
+	Publish Date: 2021-10-08
+	Description: Commodity Spotlight: Diamonds
+
+Censys Global Reach: Commodity Spotlight: Painting Exports
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2014/04/commodity-spotlight-painting-exports.html
+	Publish Date: 2021-12-16
+	Description: Commodity Spotlight: Painting Exports
+
+Censys Global Reach: Commodity Spotlight: U.S. Military Exports
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2013/12/commodity-spotlight-u-s-military-exports.html
+	Publish Date: 2021-12-16
+	Description: Commodity Spotlight: U.S. Military Exports
+
+Censys Global Reach: Commodity Spotlight: WINE EXPORTS
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2013/01/commodity-spotlight-wine-exports-2.html
+	Publish Date: 2021-10-08
+	Description: Commodity Spotlight: WINE EXPORTS
+
+[*] INFO FOR Topic ID: 10
+	Details: 0.062*"chromium" + 0.056*"implementation" + 0.054*"inappropriate" + 0.017*"picture" + 0.014*"prompt" + 0.006*"author" + 0.003*"also" + 0.003*"time" + 0.003*"first" + 0.003*"search"
+	Articles:
+Hacker News: ‘Virgin birth’ genetically engineered into female animals for the first time
+	Link: https://www.nature.com/articles/d41586-023-02404-z
+	Publish Date: 2023-07-31
+	Description: ‘Virgin birth’ genetically engineered into female animals for the first time
+
+MSRC Security Update Guide: Chromium: CVE-2023-2459 Inappropriate implementation in Prompts
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2459
+	Publish Date: 2023-05-05
+	Description: Chromium: CVE-2023-2459 Inappropriate implementation in Prompts
+
+MSRC Security Update Guide: Chromium: CVE-2023-2462 Inappropriate implementation in Prompts
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2462
+	Publish Date: 2023-05-05
+	Description: Chromium: CVE-2023-2462 Inappropriate implementation in Prompts
+
+MSRC Security Update Guide: Chromium: CVE-2023-2463 Inappropriate implementation in Full Screen Mode
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2463
+	Publish Date: 2023-05-05
+	Description: Chromium: CVE-2023-2463 Inappropriate implementation in Full Screen Mode
+
+MSRC Security Update Guide: Chromium: CVE-2023-2464 Inappropriate implementation in PictureInPicture
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2464
+	Publish Date: 2023-05-05
+	Description: Chromium: CVE-2023-2464 Inappropriate implementation in PictureInPicture
+
+MSRC Security Update Guide: Chromium: CVE-2023-2465 Inappropriate implementation in CORS
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2465
+	Publish Date: 2023-05-05
+	Description: Chromium: CVE-2023-2465 Inappropriate implementation in CORS
+
+MSRC Security Update Guide: Chromium: CVE-2023-2466 Inappropriate implementation in Prompts
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2466
+	Publish Date: 2023-05-05
+	Description: Chromium: CVE-2023-2466 Inappropriate implementation in Prompts
+
+MSRC Security Update Guide: Chromium: CVE-2023-2467 Inappropriate implementation in Prompts
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2467
+	Publish Date: 2023-05-05
+	Description: Chromium: CVE-2023-2467 Inappropriate implementation in Prompts
+
+MSRC Security Update Guide: Chromium: CVE-2023-2468 Inappropriate implementation in PictureInPicture
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2468
+	Publish Date: 2023-05-05
+	Description: Chromium: CVE-2023-2468 Inappropriate implementation in PictureInPicture
+
+MSRC Security Update Guide: Chromium: CVE-2023-2726 Inappropriate implementation in WebApp Installs
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2726
+	Publish Date: 2023-05-18
+	Description: Chromium: CVE-2023-2726 Inappropriate implementation in WebApp Installs
+
+MSRC Security Update Guide: Chromium: CVE-2023-2937 Inappropriate implementation in Picture In Picture
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2937
+	Publish Date: 2023-06-02
+	Description: Chromium: CVE-2023-2937 Inappropriate implementation in Picture In Picture
+
+MSRC Security Update Guide: Chromium: CVE-2023-2938 Inappropriate implementation in Picture In Picture
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2938
+	Publish Date: 2023-06-02
+	Description: Chromium: CVE-2023-2938 Inappropriate implementation in Picture In Picture
+
+MSRC Security Update Guide: Chromium: CVE-2023-2940 Inappropriate implementation in Downloads
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2940
+	Publish Date: 2023-06-02
+	Description: Chromium: CVE-2023-2940 Inappropriate implementation in Downloads
+
+MSRC Security Update Guide: Chromium: CVE-2023-2941 Inappropriate implementation in Extensions API
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-2941
+	Publish Date: 2023-06-02
+	Description: Chromium: CVE-2023-2941 Inappropriate implementation in Extensions API
+
+MSRC Security Update Guide: Chromium: CVE-2023-3733 Inappropriate implementation in WebApp Installs
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3733
+	Publish Date: 2023-07-21
+	Description: Chromium: CVE-2023-3733 Inappropriate implementation in WebApp Installs
+
+MSRC Security Update Guide: Chromium: CVE-2023-3734 Inappropriate implementation in Picture In Picture
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3734
+	Publish Date: 2023-07-21
+	Description: Chromium: CVE-2023-3734 Inappropriate implementation in Picture In Picture
+
+MSRC Security Update Guide: Chromium: CVE-2023-3735 Inappropriate implementation in Web API Permission Prompts
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3735
+	Publish Date: 2023-07-21
+	Description: Chromium: CVE-2023-3735 Inappropriate implementation in Web API Permission Prompts
+
+MSRC Security Update Guide: Chromium: CVE-2023-3736 Inappropriate implementation in Custom Tabs
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3736
+	Publish Date: 2023-07-21
+	Description: Chromium: CVE-2023-3736 Inappropriate implementation in Custom Tabs
+
+MSRC Security Update Guide: Chromium: CVE-2023-3737 Inappropriate implementation in Notifications
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3737
+	Publish Date: 2023-07-21
+	Description: Chromium: CVE-2023-3737 Inappropriate implementation in Notifications
+
+MSRC Security Update Guide: Chromium: CVE-2023-3738 Inappropriate implementation in Autofill
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-3738
+	Publish Date: 2023-07-21
+	Description: Chromium: CVE-2023-3738 Inappropriate implementation in Autofill
+
+[*] INFO FOR Topic ID: 11
+	Details: 0.033*"census" + 0.017*"blog" + 0.016*"system" + 0.011*"community" + 0.010*"nonresponse" + 0.009*"director" + 0.009*"data" + 0.008*"within" + 0.007*"local" + 0.007*"count"
+	Articles:
+Censys Director Blog: An Important Milestone
+	Link: https://www.census.gov/newsroom/blogs/director/2011/03/an-important-milestone.html
+	Publish Date: 2021-10-08
+	Description: An Important Milestone
+
+Censys Director Blog: Computer-Assisted Data Collection
+	Link: https://www.census.gov/newsroom/blogs/director/2010/05/computerassisted-data-collection.html
+	Publish Date: 2021-10-08
+	Description: Computer-Assisted Data Collection
+
+Censys Director Blog: Control System Software and Nonresponse Follow-up for the 2010 Census
+	Link: https://www.census.gov/newsroom/blogs/director/2010/05/control-system-software-and-the-nonresponse-followup-stage-of-the-2010-census.html
+	Publish Date: 2021-10-08
+	Description: Control System Software and Nonresponse Follow-up for the 2010 Census
+
+Censys Director Blog: Creating Partnerships to Better Serve Our Communities
+	Link: https://www.census.gov/newsroom/blogs/director/2018/04/creating_partnership.html
+	Publish Date: 2021-12-16
+	Description: Creating Partnerships to Better Serve Our Communities
+
+[*] INFO FOR Topic ID: 12
+	Details: 0.027*"aesdirect" + 0.022*"shipment" + 0.019*"video" + 0.015*"new" + 0.014*"chapter" + 0.013*"manager" + 0.013*"error" + 0.010*"blog" + 0.008*"within" + 0.008*"user"
+	Articles:
+Censys Global Reach: A Sigh of Relief�180 Day Grace Period for the Revisions to the Foreign Trade Regulations (FTR)
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2014/04/a-sigh-of-relief180-day-grace-period-for-the-revisions-to-the-foreign-trade-regulations-ftr
+	Publish Date: 2021-10-08
+	Description: A Sigh of Relief�180 Day Grace Period for the Revisions to the Foreign Trade Regulations (FTR)
+
+Censys Global Reach: AESDirect is Moving to a New, Improved Platform!
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2011/08/aesdirect-is-moving-to-a-new-improved-platform.html
+	Publish Date: 2022-04-21
+	Description: AESDirect is Moving to a New, Improved Platform!
+
+Censys Director Blog: Attempting to Reduce The Costs of Visits to Homes by Census Takers
+	Link: https://www.census.gov/newsroom/blogs/director/2010/03/replacement-forms-are-coming-another-attempt-to-reduce-the-costs-of-visits-to-households-by-cen
+	Publish Date: 2021-10-08
+	Description: Attempting to Reduce The Costs of Visits to Homes by Census Takers
+
+Hacker News: Best Resources for Web Dev
+	Link: https://news.ycombinator.com/item?id=36941116
+	Publish Date: 2023-07-31
+	Description: Best Resources for Web Dev
+
+[*] INFO FOR Topic ID: 13
+	Details: 0.061*"census" + 0.016*"blog" + 0.012*"director" + 0.011*"count" + 0.010*"respond" + 0.009*"people" + 0.009*"tribal" + 0.008*"household" + 0.008*"within" + 0.008*"operation"
+	Articles:
+Censys Director Blog: 2020 Census and Tribal Communities
+	Link: https://www.census.gov/newsroom/blogs/director/2020/09/2020_census_and_trib.html
+	Publish Date: 2022-03-22
+	Description: 2020 Census and Tribal Communities
+
+Censys Director Blog: A Sense of Tradition
+	Link: https://www.census.gov/newsroom/blogs/director/2009/10/a-sense-of-tradition.html
+	Publish Date: 2021-10-08
+	Description: A Sense of Tradition
+
+Censys Director Blog: All 2020 Census Systems Go:  How Smart Planning, Thorough Testing, and Backup Systems Will Deliver a Secure and Successful Count
+	Link: https://www.census.gov/newsroom/blogs/director/2020/02/all_2020_census_syst.html
+	Publish Date: 2021-10-08
+	Description: All 2020 Census Systems Go:  How Smart Planning, Thorough Testing, and Backup Systems Will Deliver a Secure and Successful Count
+
+Censys Director Blog: An Overview of Undercounts
+	Link: https://www.census.gov/newsroom/blogs/director/2009/11/an-overview-of-undercounts.html
+	Publish Date: 2021-10-08
+	Description: An Overview of Undercounts
+
+Censys Director Blog: Census Day in the Houston and Los Angeles Areas
+	Link: https://www.census.gov/newsroom/blogs/director/2016/04/census-day-in-the-houston-and-los-angeles-areas.html
+	Publish Date: 2021-12-16
+	Description: Census Day in the Houston and Los Angeles Areas
+
+MSRC Security Update Guide: CVE-2021-27075 Azure Virtual Machine Information Disclosure Vulnerability
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-27075
+	Publish Date: 2023-07-21
+	Description: CVE-2021-27075 Azure Virtual Machine Information Disclosure Vulnerability
+
+[*] INFO FOR Topic ID: 14
+	Details: 0.026*"export" + 0.022*"address" + 0.021*"usppi" + 0.014*"blog" + 0.010*"service" + 0.009*"trade" + 0.009*"global" + 0.009*"census" + 0.009*"help" + 0.009*"business"
+	Articles:
+Censys Global Reach: 2018 Customer Service Satisfaction Survey: We Value Your Feedback!
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2018/09/2018_customer_servic.html
+	Publish Date: 2021-10-08
+	Description: 2018 Customer Service Satisfaction Survey: We Value Your Feedback!
+
+MSRC Security Update Guide: ADV990001 Latest Servicing Stack Updates
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/ADV990001
+	Publish Date: 2023-07-11
+	Description: ADV990001 Latest Servicing Stack Updates
+
+Censys Global Reach: Avoiding Fatal Errors When Reporting the USPPI Address
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2021/03/avoiding-fatal-errors-usppi-address.html
+	Publish Date: 2021-10-08
+	Description: Avoiding Fatal Errors When Reporting the USPPI Address
+
+Censys Global Reach: BusinessUSA is here to Help Exporters
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2012/06/businessusa-is-here-to-help-exporters.html
+	Publish Date: 2021-12-16
+	Description: BusinessUSA is here to Help Exporters
+
+Censys Global Reach: Can the U.S. Customs Broker be the USPPI?
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2011/07/can-the-us-customs-broker-be-the-usppi.html
+	Publish Date: 2021-10-08
+	Description: Can the U.S. Customs Broker be the USPPI?
+
+Censys Director Blog: Census Bureau Director Statement on IG Investigative Report
+	Link: https://www.census.gov/newsroom/blogs/director/2015/09/census-bureau-director-statement-on-ig-investigative-report.html
+	Publish Date: 2021-10-08
+	Description: Census Bureau Director Statement on IG Investigative Report
+
+[*] INFO FOR Topic ID: 15
+	Details: 0.031*"data" + 0.023*"census" + 0.013*"bureau" + 0.011*"blog" + 0.011*"survey" + 0.008*"work" + 0.007*"director" + 0.006*"public" + 0.006*"statistical" + 0.006*"office"
+	Articles:
+Censys Director Blog: 2016 in Review
+	Link: https://www.census.gov/newsroom/blogs/director/2016/12/2016_in_review.html
+	Publish Date: 2021-10-08
+	Description: 2016 in Review
+
+Censys Director Blog: A Look Ahead: 2023
+	Link: https://www.census.gov/newsroom/blogs/director/2023/01/a-look-ahead-2023.html
+	Publish Date: 2023-02-13
+	Description: A Look Ahead: 2023
+
+Censys Director Blog: A New Era Begins For Our Field Directorate
+	Link: https://www.census.gov/newsroom/blogs/director/2012/12/a-new-era-begins-for-our-field-directorate.html
+	Publish Date: 2021-10-08
+	Description: A New Era Begins For Our Field Directorate
+
+Censys Global Reach: A Pressing Issue: Chamber Stamps for Certificates of Origin
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2011/09/stamps-for-certificates-of-origin.html
+	Publish Date: 2021-10-08
+	Description: A Pressing Issue: Chamber Stamps for Certificates of Origin
+
+Censys Director Blog: A Restructuring of Census Bureau Regional Offices
+	Link: https://www.census.gov/newsroom/blogs/director/2011/06/a-restructuring-of-census-bureau-regional-offices.html
+	Publish Date: 2022-03-22
+	Description: A Restructuring of Census Bureau Regional Offices
+
+Censys Director Blog: Academy Awards Show in LA
+	Link: https://www.census.gov/newsroom/blogs/director/2010/04/academy-awards-show-in-la.html
+	Publish Date: 2022-09-15
+	Description: Academy Awards Show in LA
+
+Censys Director Blog: Advancing Equity With Census Bureau Data
+	Link: https://www.census.gov/newsroom/blogs/director/2021/11/advancing-equity.html
+	Publish Date: 2022-06-09
+	Description: Advancing Equity With Census Bureau Data
+
+Censys Director Blog: And Now, for Something a Little Different . . .
+	Link: https://www.census.gov/newsroom/blogs/director/2012/06/and-now-for-something-a-little-different.html
+	Publish Date: 2021-10-08
+	Description: And Now, for Something a Little Different . . .
+
+Censys Director Blog: Celebrating Census Bureau Employees During Public Service Recognition Week
+	Link: https://www.census.gov/newsroom/blogs/director/2023/05/public-service-recognition.html
+	Publish Date: 2023-05-08
+	Description: Celebrating Census Bureau Employees During Public Service Recognition Week
+
+Censys Global Reach: Chinese Tires
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/01/chinese-tires.html
+	Publish Date: 2022-03-25
+	Description: Chinese Tires
+
+MSRC Security Update Guide: CVE-2021-34527 Windows Print Spooler Remote Code Execution Vulnerability
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527
+	Publish Date: 2023-06-13
+	Description: CVE-2021-34527 Windows Print Spooler Remote Code Execution Vulnerability
+
+[*] INFO FOR Topic ID: 16
+	Details: 0.039*"aes" + 0.027*"compliance" + 0.022*"file" + 0.017*"export" + 0.016*"error" + 0.014*"concordance" + 0.014*"filer" + 0.014*"fatal" + 0.012*"data" + 0.011*"blog"
+	Articles:
+Censys Global Reach: Changes to the AES Compliance Report Scheduled for April 2012
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2012/03/changes-to-the-aes-compliance-report-scheduled-for-april-2012.html
+	Publish Date: 2021-12-16
+	Description: Changes to the AES Compliance Report Scheduled for April 2012
+
+Censys Global Reach: Concordance Files: Data Users vs. Automated Export System (AES) Filers
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2021/03/concordance_files.html
+	Publish Date: 2021-12-16
+	Description: Concordance Files: Data Users vs. Automated Export System (AES) Filers
+
+MSRC Security Update Guide: CVE-2021-28452 Microsoft Outlook Memory Corruption Vulnerability
+	Link: https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-28452
+	Publish Date: 2023-05-09
+	Description: CVE-2021-28452 Microsoft Outlook Memory Corruption Vulnerability
+
+[*] INFO FOR Topic ID: 17
+	Details: 0.037*"census" + 0.015*"blog" + 0.014*"economic" + 0.013*"data" + 0.011*"business" + 0.009*"manufacturing" + 0.009*"bureau" + 0.008*"director" + 0.008*"million" + 0.007*"within"
+	Articles:
+Censys Director Blog: 2010 Census Ad Campaign Positioned to Save Taxpayers Millions
+	Link: https://www.census.gov/newsroom/blogs/director/2010/02/2010-census-ad-campaign-positioned-to-save-taxpayers-millions.html
+	Publish Date: 2021-10-08
+	Description: 2010 Census Ad Campaign Positioned to Save Taxpayers Millions
+
+Censys Director Blog: 2012 Economic Census data collection has begun!
+	Link: https://www.census.gov/newsroom/blogs/director/2012/12/2012-economic-census-data-collection-has-begun.html
+	Publish Date: 2022-03-22
+	Description: 2012 Economic Census data collection has begun!
+
+Censys Director Blog: 2017 Economic Census Has Launched
+	Link: https://www.census.gov/newsroom/blogs/director/2018/05/2017_economic_census.html
+	Publish Date: 2021-10-08
+	Description: 2017 Economic Census Has Launched
+
+Censys Director Blog: 2022 Economic Census is Underway – Have You Responded?
+	Link: https://www.census.gov/newsroom/blogs/director/2023/03/2022-economic-census-have-you-responded.html
+	Publish Date: 2023-03-08
+	Description: 2022 Economic Census is Underway – Have You Responded?
+
+Censys Director Blog: A Once-Every-Ten-Year Day
+	Link: https://www.census.gov/newsroom/blogs/director/2010/12/a-once-every-ten-year-day.html
+	Publish Date: 2021-12-16
+	Description: A Once-Every-Ten-Year Day
+
+Censys Global Reach: Accessing USA Trade Online Data
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2017/06/accessing_usa_trade.html
+	Publish Date: 2021-10-08
+	Description: Accessing USA Trade Online Data
+
+Censys Director Blog: Adapting to the Changing IT Infrastructure of American Business
+	Link: https://www.census.gov/newsroom/blogs/director/2011/07/tracking-the-economy-adapting-to-the-changing-it-infrastructure-of-american-business.html
+	Publish Date: 2021-10-08
+	Description: Adapting to the Changing IT Infrastructure of American Business
+
+Censys Global Reach: Blogger Biographies for 2011
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2011/06/blogger-biographies.html
+	Publish Date: 2022-04-21
+	Description: Blogger Biographies for 2011
+
+Censys Director Blog: Celebrating Manufacturing Day with U.S. Census Bureau Statistics
+	Link: https://www.census.gov/newsroom/blogs/director/2015/10/celebrating-manufacturing-day-with-u-s-census-bureau-statistics.html
+	Publish Date: 2021-10-08
+	Description: Celebrating Manufacturing Day with U.S. Census Bureau Statistics
+
+Censys Director Blog: Census Bureau Participates in Manufacturing Day
+	Link: https://www.census.gov/newsroom/blogs/director/2012/10/census-bureau-participates-in-manufacturing-day.html
+	Publish Date: 2021-12-16
+	Description: Census Bureau Participates in Manufacturing Day
+
+Censys Director Blog: Census in the Time of COVID
+	Link: https://www.census.gov/newsroom/blogs/director/2020/08/census_in_the_timeo0.html
+	Publish Date: 2021-10-08
+	Description: Census in the Time of COVID
+
+Censys Director Blog: Children Count Too!
+	Link: https://www.census.gov/newsroom/blogs/director/2010/03/children-count-too.html
+	Publish Date: 2021-10-08
+	Description: Children Count Too!
+
+Censys Global Reach: Classifying Brand Name Products
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/07/classifying-brand-name-products.html
+	Publish Date: 2022-04-14
+	Description: Classifying Brand Name Products
+
+Censys Director Blog: Counting People in the Right Places: Boundaries Matter
+	Link: https://www.census.gov/newsroom/blogs/director/2015/03/counting-people-in-the-right-places-boundaries-matter.html
+	Publish Date: 2022-03-22
+	Description: Counting People in the Right Places: Boundaries Matter
+
+Censys Global Reach: Crater of Diamonds
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2016/09/crater_of_diamonds.html
+	Publish Date: 2021-10-08
+	Description: Crater of Diamonds
+
+[*] INFO FOR Topic ID: 18
+	Details: 0.035*"census" + 0.019*"blog" + 0.018*"director" + 0.014*"population" + 0.014*"estimate" + 0.013*"count" + 0.012*"research" + 0.011*"within" + 0.011*"grove" + 0.007*"one"
+	Articles:
+Censys Global Reach: A Basket of Cheer
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/05/a-basket-of-cheer.html
+	Publish Date: 2021-12-16
+	Description: A Basket of Cheer
+
+Censys Director Blog: A Surprise on Campus
+	Link: https://www.census.gov/newsroom/blogs/director/2009/12/a-surprise-on-campus.html
+	Publish Date: 2021-10-08
+	Description: A Surprise on Campus
+
+Censys Director Blog: About Robert M. Groves, Director
+	Link: https://www.census.gov/newsroom/blogs/director/2009/10/biography-of-robert-m-groves-director.html
+	Publish Date: 2023-02-14
+	Description: About Robert M. Groves, Director
+
+Censys Director Blog: Addressing Concerns about 2010 Population Counts
+	Link: https://www.census.gov/newsroom/blogs/director/2011/05/addressing-concerns-about-2010-population-counts.html
+	Publish Date: 2021-10-08
+	Description: Addressing Concerns about 2010 Population Counts
+
+Censys Director Blog: Alaska Start IV
+	Link: https://www.census.gov/newsroom/blogs/director/2010/01/alaska-start-iv.html
+	Publish Date: 2021-10-08
+	Description: Alaska Start IV
+
+Censys Director Blog: Biography of Robert M. Groves, Director
+	Link: https://www.census.gov/newsroom/blogs/director/2009/10/biography-of-robert-m-groves-director-2.html
+	Publish Date: 2023-04-03
+	Description: Biography of Robert M. Groves, Director
+
+Censys Director Blog: Campus Counting
+	Link: https://www.census.gov/newsroom/blogs/director/2009/11/campus-counting.html
+	Publish Date: 2021-10-08
+	Description: Campus Counting
+
+Censys Director Blog: Comparing the Official Census Counts to Other Ways of Estimating the Population Size
+	Link: https://www.census.gov/newsroom/blogs/director/2011/02/comparing-the-official-census-counts-to-other-ways-of-estimating-the-population-size.html
+	Publish Date: 2021-12-16
+	Description: Comparing the Official Census Counts to Other Ways of Estimating the Population Size
+
+[*] INFO FOR Topic ID: 19
+	Details: 0.049*"census" + 0.022*"blog" + 0.016*"data" + 0.010*"bureau" + 0.009*"random" + 0.009*"sampling" + 0.008*"director" + 0.008*"economic" + 0.007*"research" + 0.006*"within"
+	Articles:
+Censys Director Blog: 20 Years of Census.gov
+	Link: https://www.census.gov/newsroom/blogs/director/2014/05/20-years-of-census-gov.html
+	Publish Date: 2021-10-08
+	Description: 20 Years of Census.gov
+
+Censys Director Blog: 2010 Census And The Internet
+	Link: https://www.census.gov/newsroom/blogs/director/2009/12/2010-census-and-the-internet.html
+	Publish Date: 2021-10-08
+	Description: 2010 Census And The Internet
+
+Censys Director Blog: 2014: Now is the Time for Change
+	Link: https://www.census.gov/newsroom/blogs/director/2014/02/2014-now-is-the-time-for-change.html
+	Publish Date: 2022-03-22
+	Description: 2014: Now is the Time for Change
+
+Censys Director Blog: 2020 Census Processing Updates
+	Link: https://www.census.gov/newsroom/blogs/director/2021/02/2020-census-processing-updates.html
+	Publish Date: 2021-10-08
+	Description: 2020 Census Processing Updates
+
+Censys Director Blog: 2020: A Year in Review
+	Link: https://www.census.gov/newsroom/blogs/director/2020/12/2020-a-year-in-review.html
+	Publish Date: 2021-10-08
+	Description: 2020: A Year in Review
+
+Censys Director Blog: 224 Years of Measuring America's People, Places, and Economy
+	Link: https://www.census.gov/newsroom/blogs/director/2014/07/celebrating-224-years-of-measuring-americas-people-places-and-economy.html
+	Publish Date: 2021-12-16
+	Description: 224 Years of Measuring America's People, Places, and Economy
+
+Censys Director Blog: A Future Without Key Social and Economic Statistics for the Country
+	Link: https://www.census.gov/newsroom/blogs/director/2012/05/a-future-without-key-social-and-economic-statistics-for-the-country.html
+	Publish Date: 2021-10-08
+	Description: A Future Without Key Social and Economic Statistics for the Country
+
+Censys Global Reach: A Wealth of Data
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/01/a-wealth-of-data-1.html
+	Publish Date: 2022-03-25
+	Description: A Wealth of Data
+
+Censys Director Blog: Address Canvassing Operation Begins
+	Link: https://www.census.gov/newsroom/blogs/director/2019/08/address_canvassingo.html
+	Publish Date: 2021-10-08
+	Description: Address Canvassing Operation Begins
+
+Censys Global Reach: Are you reporting the correct Country of Destination?
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2010/09/reporting-the-correct-country.html
+	Publish Date: 2022-04-15
+	Description: Are you reporting the correct Country of Destination?
+
+Hacker News: Ask HN: Are LLMs the Kodak Moment for Programmers?
+	Link: https://news.ycombinator.com/item?id=36941283
+	Publish Date: 2023-07-31
+	Description: Ask HN: Are LLMs the Kodak Moment for Programmers?
+
+Censys Director Blog: Asking for Input on Counting People in the Right Place in 2020
+	Link: https://www.census.gov/newsroom/blogs/director/2016/06/asking-for-input-on-counting-people-in-the-right-place-in-2020.html
+	Publish Date: 2021-10-08
+	Description: Asking for Input on Counting People in the Right Place in 2020
+
+Censys Global Reach: Caution: HOT Commodity!
+	Link: https://www.census.gov/newsroom/blogs/global-reach/2013/06/coffeedata.html
+	Publish Date: 2022-09-15
+	Description: Caution: HOT Commodity!
+
+Censys Director Blog: Census Bureau Budget Update: Investing Now Will Save Taxpayers Later
+	Link: https://www.census.gov/newsroom/blogs/director/2014/03/census-bureau-budget-update-investment-now-will-save-taxpayer-dollars-later.html
+	Publish Date: 2021-10-08
+	Description: Census Bureau Budget Update: Investing Now Will Save Taxpayers Later
+
+Censys Director Blog: Changing the Way We Do Business
+	Link: https://www.census.gov/newsroom/blogs/director/2014/03/changing-the-way-we-do-business.html
+	Publish Date: 2021-10-08
+	Description: Changing the Way We Do Business
+
+Censys Director Blog: Completing The Field Work on Quality Assurance
+	Link: https://www.census.gov/newsroom/blogs/director/2010/09/completing-the-field-work-on-quality-assurance.html
+	Publish Date: 2021-10-08
+	Description: Completing The Field Work on Quality Assurance
+
+Censys Director Blog: Counted Once
+	Link: https://www.census.gov/newsroom/blogs/director/2009/11/counted-once.html
+	Publish Date: 2021-10-08
+	Description: Counted Once
+
