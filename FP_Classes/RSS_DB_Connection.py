@@ -297,9 +297,13 @@ class RSS_DB_Connection:
             print("ERROR in RSS_DB_Connection.addFeed(): There was an error creating the connection or cursor. Exiting.")
             return False
         
-        # Test if the feed exists
-        if not RSS_DB_Connection.__testFeedExists__(cxn, cursor, rss_feed.feed_title):
-            print(f"NOTICE in RSS_DB_Connection: No results were found for RSS feed \"{rss_feed.feed_title}\". Moving on.")
+        # Run an INSERT IGNORE statement for the feed
+        try: 
+            query:str = f"INSERT IGNORE INTO RSS_FEED(feed_title, feed_link, feed_desc) VALUES(\"{rss_feed.feed_title}\", \"{rss_feed.feed_link}\", \"{rss_feed.feed_desc}\")"
+            cursor.execute(query)
+        except Exception as e:
+            print("ERROR in RSS_DB_Connection.addFeed(): There was an error executing the query. Exiting.")
+            print(e)
             cursor.close()
             cxn.close()
             return False

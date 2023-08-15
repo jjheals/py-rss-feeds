@@ -63,7 +63,7 @@ defenseDeptRss = DefenseDeptRSS()
 microsoftRss = MicrosoftRSS()
 nvdRss = NVD_RSS()
 nistRss = NIST_RSS()
-#stateDeptRss = StateDeptRSS()      # Intentionally commented out - see above import statement
+stateDeptRss = StateDeptRSS()      # Intentionally commented out - see above import statement
 hackernewsRss = HackerNewsRSS()
 
 # Create a list of all the RSS Feed objects 
@@ -113,6 +113,9 @@ if db_creds:
     # Classify all the articles. This should run whether we are updating the remote db or just locally saving the data
     # --> This loop will check if we are updating the remote db and act accordingly
     for feed in allFeeds: 
+        if not dbConn.addFeed(feed): 
+            print(f"ERROR: There was an error adding the feed {feed} to the DB. Skipping the rest of this feed.")
+            continue
         if dbConn.addArticles(feed.articles): print(f"\tSuccessfully added articles for {feed.feed_title}.")
         else: print(f"\tThere was some error adding the articles for {feed.feed_title}. Moving on.")
         
