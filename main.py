@@ -5,7 +5,6 @@ from FP_Classes.RSS_DB_Connection import RSS_DB_Connection
 from FP_Classes.Tag import Tag
 import json
 from threading import Thread 
-import nltk 
 
 # Imports for cluster analysis 
 from data_analysis.ClusteringTechniques import *
@@ -25,8 +24,6 @@ from FP_Classes.Feeds.TheHackerNews import HackerNewsRSS            # Hacker New
 
 # ------------------------------------------------------------------------------ #
 # Initialization of all variables
-nltk.download("wordnet")
-
 configDir = "config/"                  # Change if you changed the default file hierarchy 
 feedThreads:dict[str, Thread] = {}      # To keep track of the threads still running and print their targets (the feed each is for) for debugging/logging purposes
 

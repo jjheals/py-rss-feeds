@@ -2,7 +2,7 @@
 
 # Validate argument count
 if [ "$#" -ne 1 ]; then
-	echo "Usage: $0 <sleep_time_in_hours>"
+	echo "Usage: $0 <sleep_time_in_seconds>"
 	exit 1
 fi
 
@@ -26,12 +26,12 @@ while true;do
 	echo "--------------------------------------"
 	echo "DONE."
 
-	curr_time=$(date "+%c")
+	curr_time=$(date + "%Y-%m-%d %H:%M:%S")
 
 	echo "Ended at: $curr_time"
 	echo "Sleeping for $sleep_time seconds ($1 hours)"
 
 	deactivate
-	sleep $sleep_time
+	sleep "$sleep_time seconds ($1 hours)"
 done
 
