@@ -5,7 +5,6 @@ from FP_Classes.RSS_DB_Connection import RSS_DB_Connection
 from FP_Classes.Tag import Tag
 import json
 from threading import Thread 
-from time import sleep
 
 # Imports for cluster analysis 
 from data_analysis.ClusteringTechniques import *
@@ -56,15 +55,41 @@ else:
     print("SUCCESS: DB tags updated successfully.")
 
 # Initialize all Feed objects 
-bleepingComputerRss = BleepingComputerRSS()
-censysRss = CensysRSS()
-censysDirRss = CensysDirRSS()
-defenseDeptRss = DefenseDeptRSS()
-microsoftRss = MicrosoftRSS()
-nvdRss = NVD_RSS()
-nistRss = NIST_RSS()
-stateDeptRss = StateDeptRSS()      # Intentionally commented out - see above import statement
-hackernewsRss = HackerNewsRSS()
+bc_seen_articles = dbConn.getAllArticleTitles(feedTitle=BleepingComputerRSS.BC_FeedTitle)
+print(f"NOTICE: Initializing BleepingComputer - the DB currently already contains {len(bc_seen_articles)} BleepingComputer articles.")
+bleepingComputerRss = BleepingComputerRSS(seen_article_titles=bc_seen_articles)
+
+cens_seen_articles = dbConn.getAllArticleTitles(feedTitle=CensysRSS.CS_FeedTitle)
+print(f"NOTICE: Initializing Censys Global Reach - the DB currently already contains {len(cens_seen_articles)} Censys Global Reach articles.")
+censysRss = CensysRSS(seen_article_titles=cens_seen_articles)
+
+censdir_seen_articles = dbConn.getAllArticleTitles(feedTitle=CensysDirRSS.CS_FeedTitle)
+print(f"NOTICE: Initializing Censys Director Blog - the DB currently already contains {len(censdir_seen_articles)} Censys Director Blog articles.")
+censysDirRss = CensysDirRSS(seen_article_titles=censdir_seen_articles)
+
+dod_seen_articles = dbConn.getAllArticleTitles(feedTitle=DefenseDeptRSS.DoD_FeedTitle)
+print(f"NOTICE: Initializing DOD RSS - the DB currently already contains {len(dod_seen_articles)} DOD RSS articles.")
+defenseDeptRss = DefenseDeptRSS(seen_article_titles=dod_seen_articles)
+
+ms_seen_articles = dbConn.getAllArticleTitles(feedTitle=MicrosoftRSS.MS_FeedTitle)
+print(f"NOTICE: Initializing Microsoft RSS - the DB currently already contains {len(ms_seen_articles)} Microsoft RSS articles.")
+microsoftRss = MicrosoftRSS(seen_article_titles=ms_seen_articles)
+
+nvd_seen_articles = dbConn.getAllArticleTitles(feedTitle=NVD_RSS.NVD_FeedTitle)
+print(f"NOTICE: Initializing NVD - the DB currently already contains {len(nvd_seen_articles)} NVD articles.")
+nvdRss = NVD_RSS(seen_article_titles=nvd_seen_articles)
+
+nist_seen_articles = dbConn.getAllArticleTitles(feedTitle=NIST_RSS.NIST_FeedTitle)
+print(f"NOTICE: Initializing NIST - the DB currently already contains {len(nist_seen_articles)} NIST articles.")
+nistRss = NIST_RSS(seen_article_titles=nist_seen_articles)
+
+sd_seen_articles = dbConn.getAllArticleTitles(feedTitle=StateDeptRSS.SD_FeedTitle)
+print(f"NOTICE: Initializing State Dept - the DB currently already contains {len(sd_seen_articles)} State Dept articles.")
+stateDeptRss = StateDeptRSS(seen_article_titles=sd_seen_articles)     
+
+hn_seen_articles = dbConn.getAllArticleTitles(feedTitle=HackerNewsRSS.HN_FeedTitle)
+print(f"NOTICE: Initializing Hacker News - the DB currently already contains {len(hn_seen_articles)} Hacker News articles.")
+hackernewsRss = HackerNewsRSS(seen_article_titles=hn_seen_articles)
 
 # Create a list of all the RSS Feed objects 
 allFeeds:list[RSS_Feed] = [
@@ -75,7 +100,7 @@ allFeeds:list[RSS_Feed] = [
     microsoftRss,
     nvdRss,
     nistRss,
-    #stateDeptRss,  # Intentionally commented out - see above import statement
+    stateDeptRss, 
     hackernewsRss
 ]
 allArticles:list[RSS_Article] = []
@@ -102,25 +127,21 @@ print(s)
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - # 
 # Section for interacting with the remote DB
+            
+# Get all tags from the remote DB incase there are more than what we have locally
+allTags = dbConn.getAllTags()
 
-
-
-# The following block should only run if we have DB creds to access the remote DB. it can be skipped otherwise
-if db_creds:              
-    # Get all tags from the remote DB incase there are more than what we have locally
-    allTags = dbConn.getAllTags()
-
-    # Classify all the articles. This should run whether we are updating the remote db or just locally saving the data
-    # --> This loop will check if we are updating the remote db and act accordingly
-    for feed in allFeeds: 
-        if not dbConn.addFeed(feed): 
-            print(f"ERROR: There was an error adding the feed {feed} to the DB. Skipping the rest of this feed.")
-            continue
-        if dbConn.addArticles(feed.articles): print(f"\tSuccessfully added articles for {feed.feed_title}.")
-        else: print(f"\tThere was some error adding the articles for {feed.feed_title}. Moving on.")
-        
-    # Success message
-    print("[+] SUCCESS: All threads for classifying articles in feeds are complete.")
+# Classify all the articles. This should run whether we are updating the remote db or just locally saving the data
+# --> This loop will check if we are updating the remote db and act accordingly
+for feed in allFeeds: 
+    if not dbConn.addFeed(feed): 
+        print(f"ERROR: There was an error adding the feed {feed} to the DB. Skipping the rest of this feed.")
+        continue
+    if dbConn.addArticles(feed.articles): print(f"\tSuccessfully added articles for {feed.feed_title}.")
+    else: print(f"\tThere was some error adding the articles for {feed.feed_title}. Moving on.")
+    
+# Success message
+print("[+] SUCCESS: All threads for classifying articles in feeds are complete.")
 
 
 # NOTE: the time to save locally is trivial compared to the time to classify articles so no need for threading

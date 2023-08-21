@@ -3,5 +3,6 @@
     "local-save": "testing/",
     "db-creds-json-path": "db_creds.json",
     "thread-limit": 50,
-    "tags-json-file": "tags.json"
+    "tags-json-file": "tags.json",
+    "max_req_time": 30
 }

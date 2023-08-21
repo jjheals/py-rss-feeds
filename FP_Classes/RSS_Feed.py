@@ -6,7 +6,7 @@ import requests
 from hashlib import sha1
 import os
 from bs4 import BeautifulSoup
-from threading import Thread
+from threading import Timer
 from time import sleep
 from FP_Classes.Set import Set
 import datetime as dt 
@@ -44,6 +44,9 @@ class RSS_Article:
         :param articleDesc:str
     '''
     def __init__(self, articleDiv:str, feedTitle:str, articleTitle:str, articleLink:str, articlePubDate:str="", articleDesc:str="", process:bool=True):
+        
+        articleTitle = articleTitle.replace("\"", "")
+        
         print(f"[+] INIT article \"{feedTitle} - {articleTitle}\"")
         self.articleDiv = articleDiv
         self.feed_title = feedTitle
@@ -95,7 +98,18 @@ class RSS_Article:
             }
             
             # Fetch the HTML content
-            response = requests.get(self.article_link, headers=headers)
+            # Start a timer to time out after a certain amount of time 
+            def timeout(): raise TimeoutError
+            try: 
+                time_lim:int = 10                   # Timeout time in seconds
+                timer = Timer(time_lim, timeout)    # Init timer 
+                print("Starting timer...")
+                timer.start()                     
+                response = requests.get(self.article_link, headers=headers)
+                timer.cancel()  
+            except TimeoutError: 
+                print("NON-CRITICAL ERROR: Request for article content timed out. Exiting.")
+                return "Content not found."
             
             # Check if the request was successful
             response.raise_for_status()
@@ -110,9 +124,11 @@ class RSS_Article:
             return article_content.get_text() if article_content else "Content not found."
             
         except requests.exceptions.RequestException as e:
-            return f"Error fetching the article: {e}"
+            print(f"ERROR fetching article content: {e}")
+            return 
         except Exception as e:
-            return f"Error: {e}"
+            print(f"ERROR: {e}")
+            return 
     
     ''' toList() - return this article in a meaningful list format
         :return list

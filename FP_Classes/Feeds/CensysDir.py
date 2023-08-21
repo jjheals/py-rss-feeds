@@ -45,5 +45,7 @@ class CensysDirRSS(RSS_Feed):
             return
         
         for e in feed.entries: 
-            if e.title in seen_article_titles: continue
+            if e.title in seen_article_titles: 
+                print(f"\tAlready seen {e.title}")
+                continue
             self.articles.append(self.CSDir_Article(e.title, e.link, e.published, e.summary))

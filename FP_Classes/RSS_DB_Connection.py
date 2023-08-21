@@ -38,7 +38,7 @@ class RSS_DB_Connection:
     password:str
     host:str
     database:str 
-    
+
     # STATIC
     
     ''' feeds_divs_dict keeps track of the divs for each of the feeds so the RSS articles can be created accordingly
@@ -213,7 +213,7 @@ class RSS_DB_Connection:
     ''' getAllArticleTitles() - get a list of all the article titles
         :return a list of strings (article_title)
     '''    
-    def getAllArticleTitles(self, feed_title:str="") -> list[str]:
+    def getAllArticleTitles(self, feedTitle:str="") -> list[str]:
         
         # Create the connection and cursor
         try: 
@@ -226,7 +226,7 @@ class RSS_DB_Connection:
         
         # Execute the query
         query:str = "SELECT article_title FROM ARTICLE"
-        if feed_title: query += f" WHERE feed_title = \"{feed_title}\""
+        if feedTitle: query += f" WHERE feed_title = \"{feedTitle}\""
         
         try: cursor.execute(query)
         except Exception as e: 
@@ -246,13 +246,19 @@ class RSS_DB_Connection:
     
     ''' addArticles(articles) - add a list of articles to the DB
         :param articles a list of RSS_Article 
-        : return False if error, True if success
+        :return False if error, True if success
     '''
-    def addArticles(self, articles:list[RSS_Article]):
+    def addArticles(self, articles:list[RSS_Article]) -> bool:
+        
+        # Base case: No articles to add
+        if not articles: 
+            print("NOTICE in RSS_DB_Connection.addArticles(): There are no provided articles. Returning.")
+            return True
         
         # Try to create the cxn and cursor
         try: 
             cxn = mysql.connect(username=self.username, password=self.password, host=self.host, database=self.database)
+            cxn.autocommit = True
             cursor = cxn.cursor()
         except: 
             print("ERROR in RSS_DB_Connection.addArticles(): There was an error creating the connection or cursor. Exiting.")
