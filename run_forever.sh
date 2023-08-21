@@ -2,7 +2,7 @@
 
 # Validate argument count
 if [ "$#" -ne 1 ]; then
-	echo "Usage: $0 <sleep_time_in_seconds>"
+	echo "Usage: $0 <sleep_time_in_hours>"
 	exit 1
 fi
 
