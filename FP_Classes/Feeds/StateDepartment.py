@@ -55,6 +55,9 @@ class StateDeptRSS(RSS_Feed):
             feed:fp.FeedParserDict = fp.parse(l)
 
             for e in feed.entries: 
-                if e.title in seen_article_titles: continue
+                if e.title in seen_article_titles: 
+                    print(f"seen title {e.title}")
+                    continue
                 desc = str(e.summary)[3:].split('<')[0]
-                self.articles.append(self.SDCT_Article(e.title, e.link, e.published, desc))
+                try: self.articles.append(self.SDCT_Article(e.title, e.link, e.published, desc))
+                except: continue

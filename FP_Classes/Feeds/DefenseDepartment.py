@@ -53,6 +53,9 @@ class DefenseDeptRSS(RSS_Feed):
                 return
         
             for e in feed.entries: 
-                if e.title in seen_article_titles: continue
+                if e.title in seen_article_titles: 
+                    print(f"seen title {e.title}")
+                    continue
                 desc = str(e.summary)[3:].split('<')[0]
-                self.articles.append(self.DoDArticle(e.title, e.link, e.published, desc))
+                try: self.articles.append(self.DoDArticle(e.title, e.link, e.published, desc))
+                except: continue

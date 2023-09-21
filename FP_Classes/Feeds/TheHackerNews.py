@@ -41,6 +41,9 @@ class HackerNewsRSS(RSS_Feed):
         feed:fp.FeedParserDict = fp.parse(self.feed_link)
         
         for e in feed.entries: 
-            if e.title in seen_article_titles: continue
+            if e.title in seen_article_titles: 
+                print(f"seen title {e.title}")
+                continue
             published:str = str(e.published).split("+")[0].rstrip()                         # Unique formatting of Hacker News published attribute
-            self.articles.append(self.HN_Article(e.title, e.link, published, e.summary))
+            try: self.articles.append(self.HN_Article(e.title, e.link, published, e.summary))
+            except: continue

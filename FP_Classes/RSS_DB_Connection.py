@@ -21,6 +21,7 @@ from FP_Classes.RSS_Feed import RSS_Feed
 from FP_Classes.RSS_Feed import RSS_Article
 from FP_Classes.Tag import Tag 
 from hashlib import sha1
+from enum import Enum
 
 from FP_Classes.Feeds.BleepingComputer import BleepingComputerRSS
 from FP_Classes.Feeds.Censys import CensysRSS
@@ -31,7 +32,16 @@ from FP_Classes.Feeds.NationalVulnDatabase import NVD_RSS
 from FP_Classes.Feeds.NIST import NIST_RSS
 from FP_Classes.Feeds.StateDepartment import StateDeptRSS
 from FP_Classes.Feeds.TheHackerNews import HackerNewsRSS
+from FP_Classes.FP_Exceptions.MySQLCxnError import MySQLCxnError
 
+
+
+class QueryOption(Enum):
+    AND:int  = 0
+    OR:int   = 1
+    XOR:int  = 2
+    NAND:int = 3
+    
 class RSS_DB_Connection: 
     
     username:str
@@ -61,8 +71,127 @@ class RSS_DB_Connection:
         self.username=username          # Given username
         self.password=password          # Given password
         self.host=host                  # Given host
-        self.database='RSS_Feeds'        # Static database
+        self.database='RSS_Feeds'       # Static database
 
+    def new_connection(self) -> object: 
+         # Create the connection and cursor
+        try: 
+            cxn = mysql.connect(username=self.username, password=self.password, host=self.host, database=self.database)
+            cursor = cxn.cursor()
+            return cxn, cursor
+        except Exception as e: 
+            print(f"ERROR in RSS_DB_Connection.update_index(): There was an error initiating the database connection. Quitting.")
+            print(e)
+            raise MySQLCxnError()
+    
+    
+        
+    # -------------------------------------------------------------------------------------------------------------- #
+    # INVERTED INDEX 
+    
+    def update_index(self, articles:list[RSS_Article]) -> bool:
+        
+         # Create the connection and cursor
+        try: cxn, cursor = self.new_connection()
+        except MySQLCxnError as e:  
+            print(e)
+            return False
+        
+        
+        # Iterate over the articles and insert one by one into ARTICLE, then tokenize and update INVERTED_INDEX
+        for a in articles: 
+            
+            # Format the insert statement into ARTICLE
+            new_article_query:str = "INSERT IGNORE INTO ARTICLE(feed_title, article_title, article_link, pub_date, article_desc, article_content) VALUES"
+            new_article_query += f"(\"{a.feed_title}\", \"{a.article_title}\", \"{a.article_link}\", \"{a.pub_date}\", \"{a.article_desc}\", \"{a.raw_content}\")"
+            
+            # Try to execute the insert into ARTICLE statement
+            try: 
+                cursor.execute(new_article_query)
+                cxn.commit()
+            except Exception as e:  
+                # If the insert into ARTICLE statement fails, then skip the rest of this article since the FK constraints will fail
+                print(f"ERROR in RSS_DB_Connection.update_index(): There was an error executing the insert statement (ARTICLE_TABLE) for \"{a.article_title}\". Moving on.")
+                print(new_article_query)
+                print(e)
+                continue
+            
+            # Format the query to add the article tokens to INVERTED_INDEX table
+            # Get the ID of the last inserted document
+            cursor.execute("SELECT LAST_INSERT_ID()")
+            article_id = cursor.fetchone()[0]
+            
+            # Insert tokens and article_content into the INVERTED_INDEX table
+            insert_query = "INSERT IGNORE INTO INVERTED_INDEX(term, article_id, freq) VALUES (%s, %s, %s)"
+            tokens_data = [(t, article_id, f) for t,f in a.article_tokens.items()]
+            
+            try: 
+                cursor.executemany(insert_query, tokens_data)
+                cxn.commit()
+            except Exception as e: 
+                print(f"ERROR in RSS_DB_Connection.update_index(): There was an error executing the insert statement (INVERTED_INDEX table) for \"{a.article_title}\". Moving on.")
+                print(insert_query)
+                print(e)
+                continue
+        
+        # Done with the loop - close cursor and cxn
+        cursor.close()
+        cxn.commit()
+        cxn.close()
+        
+        return True
+    
+    def query_articles(self, terms:list[str], op:QueryOption=QueryOption.AND) -> list[tuple]: 
+        
+        # Make sure some search terms were given
+        if not terms: 
+            print("RSS_DB_Connection.query_articles(): Empty set of terms given.")
+            return []
+        
+        # Stem query terms 
+        tokens, strn = RSS_Article.__contentPreprocessing__(" ".join(terms))
+        
+        match(op): 
+            case QueryOption.AND: op_str:str = "&&"
+            case QueryOption.OR: op_str:str = "||"
+            case QueryOption.XOR: op_str:str = ""       # IMPLEMENT !!!
+            
+        # Init connection to DB
+        try: cxn, cursor = self.new_connection()
+        except MySQLCxnError as e: 
+            print(e) 
+            return []
+
+        # Format the query
+        query:str = f"SELECT DISTINCT ARTICLE.article_id, article_title, article_link, article_desc FROM ARTICLE NATURAL JOIN INVERTED_INDEX WHERE term = \"{list(tokens.keys())[0].lower()}\""
+        
+        for t in list(tokens.keys())[1:]: query += f" {op_str} term = \"{t.lower()}\""
+        
+        print(f"QUERY:\n{query}\n")
+        
+        # Execute the query
+        try: cursor.execute(query)
+        except Exception as e: 
+            print("There was an error executing the query. Query:\n" + query)
+            print(e)
+            return []
+        
+        lst:list[tuple] = []
+        for r in cursor.fetchall(): 
+            lst.append((r[0],       # article_id
+                        r[1],       # article_title
+                        r[2],       # article_link
+                        r[3])       # article_desc
+                    )
+        
+        # Commit and close 
+        RSS_DB_Connection.commit_close(cxn, cursor)
+        
+        return lst
+        
+            
+        
+        
     # -------------------------------------------------------------------------------------------------------------- #
     # Methods to GET information from the remote DB 
      
@@ -610,3 +739,16 @@ class RSS_DB_Connection:
             # We got results
             print(f"NOTICE in RSS_DB_Connection.__testFeedExists__(): test query found at least one result for \"{feedTitle}\". Proceeding.")
             return True
+
+
+    @staticmethod
+    def commit_close(cxn, cursor) -> bool: 
+        try: 
+            cursor.close()
+            cxn.commit()
+            cxn.close()
+            return True
+        except Exception as e:
+            print(f"ERROR in RSS_DB_Connection.update_index(): There was an error closing the database connection. Quitting.")
+            print(e)
+            return False

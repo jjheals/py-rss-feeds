@@ -31,9 +31,9 @@ class RSS_Article:
     article_desc:str        # Description/summary of this article
     tags:list[str]          # A list of tag names associated with this article
     
-    raw_content:str           # Content of this article before any preprocessing - exactly as pulled from site
-    preprocessed_content:str  # Content of this article after preprocessing - stripped down to key words for analysis
-    article_tokens:list[str]  # List of tokens for the content of this article (preprocessed_content as a list)
+    raw_content:str               # Content of this article before any preprocessing - exactly as pulled from site
+    preprocessed_content:str      # Content of this article after preprocessing - stripped down to key words for analysis
+    article_tokens:dict[str,int]  # Dict of tokens and freqs
     
     ''' __init__(articleDiv, feedTitle, articleTitle, articleLink, articlePubDate, articleDesc) - Constructor
         :param articleDiv:str
@@ -61,7 +61,7 @@ class RSS_Article:
             # If a div is specified, then get the content. Otherwise the content is not relevant (see Microsoft's implementation for an example)
             print(f"\t[+] Getting article content...")
             if self.articleDiv: self.raw_content = self.__getArticleContent__()
-            else: self.raw_content = ""
+            else: self.raw_content = self.article_title + " " + self.article_desc
             
             # Preprocess the content
             print(f"\t[+] Preprocessing content...\n")
@@ -196,7 +196,7 @@ class RSS_Article:
         
     '''
     @staticmethod
-    def __contentPreprocessing__(text:str):
+    def __contentPreprocessing__(text:str) -> object:
         text = re.sub(r'\\', '', text)
         
         # Install the required packages from NLTK if needed 
@@ -210,19 +210,24 @@ class RSS_Article:
         except LookupError: nltk.download('stopwords') 
         
         # Tokenization 
-        tokens = word_tokenize(text)                                        # Split the text into meaningful chunks/tokens
-        tokens = [token.lower() for token in tokens if token.isalpha()]     # Perform tokenization on the list of tokens
+        stop_words = set(stopwords.words('english'))     # Get a set of stop words to remove (the, a, an, and, in, ...)
+        lemmatizer = WordNetLemmatizer()                 # Init lemmatizer 
+        tokens = word_tokenize(text)                     # Split the text into tokens
         
-        # Stop words
-        stop_words = set(stopwords.words('english'))                        # Get a set of stop words to remove (the, a, an, and, in, ...)
-        tokens = [token for token in tokens if token not in stop_words]     # Remove stop words from the list of tokens 
+        new_tokens:dict[str, int] = {}
         
-        # Lemmatization 
-        lemmatizer = WordNetLemmatizer()                                    # Init lemmatizer 
-        tokens = [lemmatizer.lemmatize(token) for token in tokens]           # Perform lemmatization on the list of tokens
-        
+        # Perform tokenization on the list of tokens
+        #         (stemmed lowercase token)                               if (token is alpha)  and (token is not a stop word) 
+        for t in tokens:
+            t = t.lower()
+            if((not t.isalpha()) or (t in stop_words)): continue
+                        
+            t = lemmatizer.lemmatize(t)         # Stemming
+            if(not t in new_tokens): new_tokens[t] = 1  # Avoid duplicates   
+            else: new_tokens[t] += 1  
+                
         # Join the list of tokens back as a single string and return 
-        return tokens, " ".join(tokens)
+        return new_tokens, " ".join(tokens)
 
 # ------------------------------------------------------------------------------------------------- #
 ''' RSS_Feed - generic class for RSS_feeds '''
@@ -301,20 +306,20 @@ class RSS_Feed:
         :param pathToFile path to the excel file to save the results
         :return False if error, True if success
     '''
-    def articleTagsToExcel(self, dataFolder:str, pathToFile:str) -> bool:
+    def articleTagsToCSV(self, dataFolder:str, pathToFile:str) -> bool:
         pathToFile = dataFolder + self.folderPath + "/" + pathToFile
         
         # Check that the path to the directory exists, create it if not
         if not os.path.exists(dataFolder + self.folderPath): 
             os.mkdir(dataFolder + self.folderPath) 
         
-        # Check if this is a valid file name (must be excel/xlsx)
-        if pathToFile[-5:] != ".xlsx": 
-            print(f"ERROR in RSS_Feed.articleTagsToExcel(): \"{pathToFile}\" is not a valid excel file name. Quitting.")
+        # Check if this is a valid file name (must be csv)
+        if pathToFile[-5:] != ".csv": 
+            print(f"ERROR in RSS_Feed.articleTagsToExcel(): \"{pathToFile}\" is not a valid csv file name. Quitting.")
             return
         
         # If the file already exists, then get the data currently there
-        try: existingDf = pd.read_excel(pathToFile)
+        try: existingDf = pd.read_csv(pathToFile)
         except FileNotFoundError: existingDf = pd.DataFrame()
 
         # Column headers
@@ -332,7 +337,7 @@ class RSS_Feed:
         combined.drop_duplicates(inplace=True, keep='last')         # Drop duplicates while keeping the most recent copy
         
         # Write to the excel file
-        try: combined.to_excel(pathToFile, index=False)
+        try: combined.to_csv(pathToFile, index=False)
         except Exception as e: 
             print("ERROR in RSS_Feed.articleTagsToExcel(): there was an error writing to the excel file. Quitting.")
             print(e)

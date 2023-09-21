@@ -41,5 +41,8 @@ class NVD_RSS(RSS_Feed):
         feed:fp.FeedParserDict = fp.parse(self.feed_link)
 
         for e in feed.entries: 
-            if e.title in seen_article_titles: continue
-            self.articles.append(self.NVD_Article(e.title, e.link, e.date, e.summary))
+            if e.title in seen_article_titles: 
+                print(f"seen title {e.title}")
+                continue
+            try: self.articles.append(self.NVD_Article(e.title, e.link, e.date, e.summary))
+            except: continue

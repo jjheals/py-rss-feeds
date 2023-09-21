@@ -45,5 +45,8 @@ class NIST_RSS(RSS_Feed):
             feed:fp.FeedParserDict = fp.parse(l)
 
             for e in feed.entries: 
-                if e.title in seen_article_titles: continue
-                self.articles.append(self.NIST_Article(e.title, e.link, e.published, e.summary))
+                if e.title in seen_article_titles: 
+                    print(f"seen title {e.title}")
+                    continue
+                try: self.articles.append(self.NIST_Article(e.title, e.link, e.published, e.summary))
+                except: continue
